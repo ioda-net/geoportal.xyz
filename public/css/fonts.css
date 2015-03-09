@@ -1,0 +1,72 @@
+@CHARSET "UTF-8";
+/**
+	Fichier des polices à charger
+	List of fonts to be loaded
+*/
+
+/*
+@TODO : modifier et simplifier la liste : page load = 360 !!!!
+A priori on utilise que Roboto
+*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,500,600,600italic,700,700italic,800,800italic);
+@import url(http://fonts.googleapis.com/css?family=Handleetext=TITLE%20TEST);
+
+
+
+.font-effect-neon {
+  text-shadow: 0 0 0.1em #fff, 
+	0 0 0.2em #fff, 
+	0 0 0.3em #fff, 
+	0 0 0.4em #88948b,
+	0 0 0.6em #88948b, 
+	0 0 0.8em #88948a, 
+	0 0 1.0em #88948a, 
+	0 0 1.2em #88948a;
+  color: #4d4d4d;
+}
+
+
+/*
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,500);
+
+
+@import url(http://fonts.googleapis.com/css?family=Roboto&effect=shadow-multiple|neon&text=Ioda-Net%20Sarl);
+
+other useful fonts
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700,300italic,400italic,700italic);
+
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+
+
+
+Hand writing style
+@import url(http://fonts.googleapis.com/css?family=Architects+Daughter);
+
+Not used too compact.
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:100,300,400,700,900,300italic,400italic);
+
+Utilisation des subsets 
+https://developers.google.com/fonts/docs/getting_started#Subsets
+
+*/
+
+/* Keep this in ioda-net.css 
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+body {
+  font-family: 'Open Sans', 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+body input, body textarea {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+*/
