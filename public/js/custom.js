@@ -175,9 +175,9 @@ $(function() {
 		var sep = '@';
 		var dot = '.';
 		var url = 'mailto:';
-		var dom = 'example';
-		var tld = 'com';
-		var sub = '?subject=Informations à propos de Ioda-Net Sàrl';
+		var dom = 'ioda-net';
+		var tld = 'ch';
+		var sub = '?subject=Informations à propos de geoportail.xyz';
 		switch (me){
 			case 'contact' : var murl = url+'contact'+sep+dom+dot+tld+sub; break;
 			case 'webmaster' : var murl = url+'webmaster'+sep+dom+dot+tld+sub; break;
