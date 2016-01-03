@@ -935,3 +935,12 @@ footer a:hover, a:active { color: #ffffff; text-decoration: none;}
 	}
 	
 }
+
+.jumbotron .h1, .jumbotron h1 {
+	font-size: 44px;
+}
+.jumbotron p {
+	margin-bottom: 15px;
+	font-size: 23px;
+	font-weight: 200;
+}
