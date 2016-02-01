@@ -8,8 +8,8 @@ Pour être sûr d'avoir les derniers commit.
 
 ### Travailler sur les fichiers :
 
-Par groupe logique, faire un Team Commit avec un message résumant 
-les changements.
+Par groupe logique, faire un Team Commit avec un 
+message résumant les changements.
 
 ### Envoi sur github
 
