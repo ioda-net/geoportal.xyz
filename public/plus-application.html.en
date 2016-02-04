@@ -16,10 +16,8 @@
 <meta name="copyright" content="©2016 Ioda-Net Sàrl">
 <meta name="generator" content="">
 <meta name="language" content="en">
-<!--
-<meta name="verify-v1" content="">
-<meta name="google-site-verification" content="">
--->
+<meta name="google-site-verification" content="JMuae0pN3XwIsDdcyR_oquLg5UKFk60PzgfLa1PPNLI" />
+
 <meta http-equiv="robots" content="index, follow, noimageindex, snippet">
 
 <meta name="description" content="Development of custom GIS applications to fit your needs">
@@ -56,7 +54,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="./index.html" title="">Open Source GIS Services
+      <a class="navbar-brand" href="./index.html.en" title="">Open Source GIS Services
 
       </a>
     </div>
