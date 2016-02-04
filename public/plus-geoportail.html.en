@@ -22,8 +22,10 @@
 -->
 <meta http-equiv="robots" content="index, follow, noimageindex, snippet">
 
-<meta name="description" content="">
-<meta name="keywords" content="">
+<meta name="description" content="Geoportals based on map.geo.admin.ch, our adaptation handles multi-portals installations.
+We use Mapserver, python, sphinx-search in our backend, and AngularJS, openlayers 3, bootstrap for our web based frontend.
+">
+<meta name="keywords" content="geoportal, geo-portal, mapserver, map.geo.admin.ch, mf-geoadmin3, mf-chsdi3, git, postgresql, postgis, openlayers, 3d, wms, wmts, wfs, wfs-t, python, angularjs, javascript, geojb">
 
 <base href="./" />
 

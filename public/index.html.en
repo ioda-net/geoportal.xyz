@@ -22,8 +22,10 @@
 -->
 <meta http-equiv="robots" content="index, follow, noimageindex, snippet">
 
-<meta name="description" content="">
-<meta name="keywords" content="">
+<meta name="description" content="Development of geoportals or GIS applications based on OpenSource libraries.
+Our solutions are adaptable to any needs.
+Mobile and geolocation support are already here!">
+<meta name="keywords" content="geoportal, geo-portal, switzerland, jura, mf-geadmin, sit, sig, geodata, application, map, geomatic, mobile">
 
 <base href="./" />
 
