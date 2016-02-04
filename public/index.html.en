@@ -133,7 +133,7 @@
                 <i class="fa fa-fax"></i><span itemprop="faxNumber" style="padding-left:6px">+41 32 435 7172</span>
             </div>
             <div class="col-sm-12 col-md-3">
-                <a href="#" onclick="WriteMe('contact'); return false;"><i class="fa fa-at"></i><span itemprop="email" style="padding-left:6px">contact<i class="fa fa-at"></i>ioda-net.ch</span></a>
+                <a href="#" onclick="WriteMe('contact', 'en'); return false;"><i class="fa fa-at"></i><span itemprop="email" style="padding-left:6px">contact<i class="fa fa-at"></i>ioda-net.ch</span></a>
                 <br />
                 <a href="/"><i class="fa fa-link"></i><span itemprop="url" style="padding-left:6px">www.ioda-net.ch</span></a>
             </div>

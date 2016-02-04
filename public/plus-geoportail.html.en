@@ -84,7 +84,7 @@
           <p><img src="images/geoportail.png" alt="Geoportal" class="img-responsive" /></p>
           <p>
             <!--<a class="btn btn-default" href="#" role="button">Démonstration &raquo;</a>-->
-            <a class="btn btn-default" href="#" onclick="WriteMe('contact'); return false;" role="button">Contact us &raquo;</a>
+            <a class="btn btn-default" href="#" onclick="WriteMe('contact', 'en'); return false;" role="button">Contact us &raquo;</a>
             <!--<a class="btn btn-default" href="#" role="button">Comment ça marche ? &raquo;</a>-->
           </p>
           <h3>They trusted us</h3>
@@ -112,7 +112,7 @@
                 <i class="fa fa-fax"></i><span itemprop="faxNumber" style="padding-left:6px">+41 32 435 7172</span>
             </div>
             <div class="col-sm-12 col-md-3">
-                <a href="#" onclick="WriteMe('contact'); return false;"><i class="fa fa-at"></i><span itemprop="email" style="padding-left:6px">contact<i class="fa fa-at"></i>ioda-net.ch</span></a>
+                <a href="#" onclick="WriteMe('contact', 'en'); return false;"><i class="fa fa-at"></i><span itemprop="email" style="padding-left:6px">contact<i class="fa fa-at"></i>ioda-net.ch</span></a>
                 <br />
                 <a href="/"><i class="fa fa-link"></i><span itemprop="url" style="padding-left:6px">www.ioda-net.ch</span></a>
             </div>

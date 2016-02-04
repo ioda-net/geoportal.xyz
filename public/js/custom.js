@@ -171,13 +171,22 @@ $(function() {
 */	
 });
 
-	function WriteMe(me){
+	function WriteMe(me, lang){
+        lang = lang || 'fr';
 		var sep = '@';
 		var dot = '.';
 		var url = 'mailto:';
 		var dom = 'ioda-net';
 		var tld = 'ch';
-		var sub = '?subject=Informations à propos de geoportail.xyz';
+		var sub;
+        switch (lang) {
+            case 'fr':
+                sub = '?subject=Informations à propos de geoportail.xyz';
+                break;
+            default:
+                sub = '?subject=Information about geoportail.xyz';
+                break;
+        }
 		switch (me){
 			case 'contact' : var murl = url+'contact'+sep+dom+dot+tld+sub; break;
 			case 'webmaster' : var murl = url+'webmaster'+sep+dom+dot+tld+sub; break;
