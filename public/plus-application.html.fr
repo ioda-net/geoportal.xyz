@@ -79,14 +79,14 @@
         </p>
         <h3>Exemples</h3>
         <h4>Livreurs à domicile</h4>
-        <p>Nous avons par exemple réalisé une application pour aider un livreur de pizzas de la région de Moutier à trouver les accès de bâtiments. Avec cette application, vous pouvez :</p>
+        <p>Nous avons par exemple réalisé une application pour aider un livreur de produits de la région de Moutier à trouver les accès de bâtiments. Avec cette application, vous pouvez :</p>
         <ul>
           <li>Afficher les bâtiments et les routes de la région</li>
           <li>Rechercher une adresse avec auto-complétion</li>
           <li>Vous centrer automatiquement sur le bâtiment recheché</li>
           <li>Mettre en évidence automatiquement le bâtiment recherché et sa voie d'accès</li>
         </ul>
-        <p><img src="images/ambulances.png" alt="Application ambulances" class="img-responsive" /></p>
+        <p><img src="images/ambulances.png" alt="Application domicile" class="img-responsive" /></p>
         <p>
           <!-- <a class="btn btn-default" href="#" role="button">Démonstration &raquo;</a> -->
         </p>

@@ -79,15 +79,15 @@
           <a class="btn btn-default" href="#" onclick="WriteMe('contact', 'en'); return false;" role="button">Contact us &raquo;</a>
         </p>
         <h3>Examples</h3>
-        <h4>Ambulances</h4>
-        <p>For instance, we developed an application to help ambulance persons from Moutier (Switzerland) to find access ways into buildings. With this application, you can:</p>
+        <h4>Home delivery</h4>
+        <p>For instance, we developed an application to help home delivery from Moutier (Switzerland) to find access ways into buildings. With this application, you can:</p>
         <ul>
           <li>Display buildings and roads of the district</li>
           <li>Search for an address with auto-completion</li>
           <li>Center on the searched building</li>
           <li>Highlight the searched building and its access way</li>
         </ul>
-        <p><img src="images/ambulances.png" alt="Ambulances Application" class="img-responsive" /></p>
+        <p><img src="images/ambulances.png" alt="Home delivery" class="img-responsive" /></p>
         <p>
           <!--<a class="btn btn-default" href="#" role="button">Démonstration &raquo;</a>-->
         </p>

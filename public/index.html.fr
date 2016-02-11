@@ -108,7 +108,7 @@ Le support des interfaces mobiles ainsi que la géolocalisation sont déjà disp
     <div class="col-md-6">
       <h2>Des applications spécifiques</h2>
       <p>Pas besoin de tout un géoportail ? Nous pouvons développer des applications cartographiques simples et ciblées pour vos besoins.</p>
-      <p>Grâce à ces petites applications, vous pourrez nottament :</p>
+      <p>Grâce à ces petites applications, vous pourrez notamment :</p>
       <ul>
         <li>Naviguer via une interface simplifiée</li>
         <li>Visualiser des données</li>
