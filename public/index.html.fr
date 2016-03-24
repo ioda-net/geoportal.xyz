@@ -49,8 +49,9 @@ Le support des interfaces mobiles ainsi que la géolocalisation sont déjà disp
 <!--[if lt IE 9]><script type="text/javascript" src="/js/html5shiv-3.7.2.min.js"></script><![endif]-->
 </head>
 <body>
+<!--
 <nav id="atop" class="navbar navbar-default fixednav" role="navigation">
-<!-- <header class="header"><div class="top-bar">&nbsp;</div></header> -->
+ <header class="header"><div class="top-bar">&nbsp;</div></header>
 <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
@@ -59,14 +60,11 @@ Le support des interfaces mobiles ainsi que la géolocalisation sont déjà disp
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="./index.html" title="">Solutions cartographiques Open Source
-      <!--
+      <a class="navbar-brand" href="./index.html" title="">Les solutions Open Source pour visualiser vos données
           <img id="main-logo" src="./images/header.png" class="img-responsive hidden-xs hidden-sm hidden-md" alt="logo" />
           <img id="main-logo" src="./images/header-xs.png" class="img-responsive visible-xs visible-sm visible-md" alt="logo" />
-       -->
-      </a>
+      </a> 
     </div>
-<!-- MENU
     <div class="navbar-collapse collapse navbar-right">
         <ul class="nav navbar-nav">
 	        <li><a href="page1.html"><i class="fa fa-sort-alpha-desc"></i></a></li>
@@ -76,15 +74,18 @@ Le support des interfaces mobiles ainsi que la géolocalisation sont déjà disp
 			<li><a href="page5.html"><i class="fa fa-camera"></i></a></li>
 		</ul>
     </div>
-    -->
+   
 </div>
 </nav>
-
+ -->
 <section>
+    <div class="top-bar" style="height:8px;line-height:8px;">&nbsp;</div>
     <div class="jumbotron">
-      <div class="container">
-        <h1>Des cartes, pour tous vos projets</h1>
-        <p>Notre équipe peut réaliser suivant vos besoins des géoportails ou des applications métier</p>
+      <div class="container text-center">
+        <h1>Des solutions pour vos géo-données</h1>
+        <p>Adaptation - Publication - Visualisation</p>
+		<div class="text-center"> <a class="btn btn-default push-right" href="#" onclick="WriteMe('contact'); return false;" role="button">Nous contacter</a>
+		</div>        
       </div>
     </div>
 </section>
@@ -95,31 +96,44 @@ Le support des interfaces mobiles ainsi que la géolocalisation sont déjà disp
   <!-- Example row of columns -->
   <div class="row">
     <div class="col-md-6">
-      <h2>Des géoportails complets</h2>
-      <p>Notre solution de géoportail est basée sur <a href="https://map.geo.admin.ch">mf-geoadmin3</a>, une solution OpenSource créée par l'office fédéral suisse de topographie. Cette solution, à la fois simple, complète et ergonomique, est considérée comme une des meilleures du marché.</p>
-      <p>Nous vous proposons d'adapter cette solution à vos besoins en ajoutant ou modifiant des fonctionnalités existantes. Nous pouvons également héberger vos données et votre serveur de carte.</p>
-      <p><img src="images/geoportail.png" alt="Géoportail" class="img-responsive" /></p>
+      <h2>Du géoportail professionnel</h2>
       <p>
-        <a class="btn btn-default" href="plus-geoportail.html" role="button">En savoir plus &raquo;</a>
-        <!--<a class="btn btn-default" href="#" role="button">Démonstration &raquo;</a>-->
-      </p>
+      Vous connaissez certainement le Géoportail open Source Fédéral <a href="https://map.geo.admin.ch">mf-geoadmin3</a> crée par l'office fédéral suisse de topographie
+      Swisstopo. Cette solution complète et ergonomique, est considérée comme une des meilleures du marché.</p>
+     
+      <p><img src="images/geoportail.png" alt="Géoportail" class="img-responsive" /></p>
+       <p>Nous avons les compétences et les moyens d'adapter cette solution à vos besoins ou/et à ceux de vos clients. Vous obtenez donc un géoportail sur-mesure et totalement 
+      personnalisé. Et vous pouvez évidemment ajouter et modifier des fonctionnalités existantes. Nous pouvons également héberger vos données et votre serveur de carte.</p>
+	  <h3>Ils nous font confiance</h3>
+	  <p>Nous avons déjà adapté mf-geoadmin3 :</p>
+	  <ul>
+	    <li><a href="https://www.geojb.ch">Le portail cartographique du Jura Bernois (Suisse)</a></li>
+	    <li>Les portails de plus de 20 communes dans le Jura Bernois (Suisse) (portails non accessibles publiquement)</li>
+	  </ul>
     </div>
 
     <div class="col-md-6">
-      <h2>Des applications spécifiques</h2>
-      <p>Pas besoin de tout un géoportail ? Nous pouvons développer des applications cartographiques simples et ciblées pour vos besoins.</p>
-      <p>Grâce à ces petites applications, vous pourrez notamment :</p>
+      <h2>à l'application spécifique</h2>
+      <p>Nous développons aussi des applications cartographiques plus simples, répondant à un besoin métier spécifique ou ponctuel, vous permettant par exemple de :</p>
       <ul>
         <li>Naviguer via une interface simplifiée</li>
-        <li>Visualiser des données</li>
+        <li>Visualiser certaines données cibles</li>
         <li>Éditer des cartes directement depuis votre navigateur web</li>
       </ul>
       <p><img src="images/ambulances.png" alt="Application ambulances" class="img-responsive" /></p>
       <p>
-        <a class="btn btn-default" href="plus-application.html" role="button">En savoir plus &raquo;</a>
-      </p>
+      Professionnels ou associations, nous sommes tout à fait ouverts à vous rencontrer, à analyser vos questions sur le géoportail, et à envisager les solutions
+      les plus adaptées à vos conditions de travail ou de loisirs. Nous travaillons en mode Agile, ce qui nous permet de tester plutôt rapidement la faisabilité des belles idées,
+      et de vous donner une estimation réaliste du temps de travail et des coûts associés. Alors n'hésitez plus, contactez-nous.      
+      
+      <!--<p><a class="btn btn-default" href="plus-application.html" role="button">En savoir plus &raquo;</a></p>-->
+      
     </div>
   </div>
+</section>
+<section class="container">  
+<div class="text-center"> <a class="btn btn-default push-right" href="#" onclick="WriteMe('contact'); return false;" role="button">Nous contacter</a>
+<p>&nbsp;</p>
 </section>
 
 <!-- FOOTER -->

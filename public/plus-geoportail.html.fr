@@ -92,7 +92,7 @@ client (mode web).
           <h3>Ils nous ont fait confiance</h3>
           <p>Nous avons déjà adapté mf-geoadmin3 :</p>
           <ul>
-            <li><a href="https://beta.geojb.ch">Le portail cartographique du Jura Bernois (Suisse)</a></li>
+            <li><a href="https://www.geojb.ch">Le portail cartographique du Jura Bernois (Suisse)</a></li>
             <li>Les portails de plus de 20 communes dans le Jura Bernois (Suisse) (portails non accessibles publiquement)</li>
           </ul>
       </div>

@@ -89,7 +89,7 @@ We use Mapserver, python, sphinx-search in our backend, and AngularJS, openlayer
           <h3>They trusted us</h3>
           <p>We have already adapted mf-geoadmin3:</p>
           <ul>
-            <li><a href="https://beta.geojb.ch">The GIS portal of Bernese Jura (Switzerland)</a></li>
+            <li><a href="https://www.geojb.ch">The GIS portal of Bernese Jura (Switzerland)</a></li>
             <li>Geoportals for more that 20 towns in Bernese Jura (Switzerland) (private portals)</li>
           </ul>
       </div>

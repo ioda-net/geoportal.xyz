@@ -45,42 +45,13 @@ Mobile and geolocation support are already here!">
 <!--[if lt IE 9]><script type="text/javascript" src="/js/html5shiv-3.7.2.min.js"></script><![endif]-->
 </head>
 <body>
-<nav id="atop" class="navbar navbar-default fixednav" role="navigation">
-<!-- <header class="header"><div class="top-bar">&nbsp;</div></header> -->
-<div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Menu</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="./index.html" title="">Open Source GIS Services
-      <!--
-          <img id="main-logo" src="./images/header.png" class="img-responsive hidden-xs hidden-sm hidden-md" alt="logo" />
-          <img id="main-logo" src="./images/header-xs.png" class="img-responsive visible-xs visible-sm visible-md" alt="logo" />
-       -->
-      </a>
-    </div>
-<!-- MENU
-    <div class="navbar-collapse collapse navbar-right">
-        <ul class="nav navbar-nav">
-	        <li><a href="page1.html"><i class="fa fa-sort-alpha-desc"></i></a></li>
-			<li><a href="page2.html"><i class="fa fa-anchor"></i></a></li>
-			<li><a href="page3.html"><i class="fa fa-user"></i></a></li>
-			<li><a href="page4.html"><i class="fa fa-magic"></i></a></li>
-			<li><a href="page5.html"><i class="fa fa-camera"></i></a></li>
-		</ul>
-    </div>
-    -->
-</div>
-</nav>
-
 <section>
+	<div class="top-bar" style="height:8px;line-height:8px;">&nbsp;</div>
     <div class="jumbotron">
-      <div class="container">
-        <h1>Maps for all your needs</h1>
-        <p>Depending on your needs, our team can develop either a full geoportal or a custom GIS application.</p>
+      <div class="container text-center">
+        <h1>Solutions for your geo-data</h1>
+        <p>Adaptation - Publication - Visualisation</p>
+		<div class="text-center"> <a class="btn btn-default push-right" href="#" onclick="WriteMe('contact'); return false;" role="button">Contact us</a>
       </div>
     </div>
 </section>
@@ -95,10 +66,14 @@ Mobile and geolocation support are already here!">
       <p>Our geoportal product is based on <a href="https://map.geo.admin.ch">mf-geoadmin3</a>, an Open Source geoportal created by the Swiss Federal Office of Topography. This product, both full featured and easy to use, is considered to be one of the best in the market.</p>
       <p>We propose to adapt it to your needs by adding or modifying features. We can also host your data and your map server.</p>
       <p><img src="images/geoportail.png" alt="Geoportal" class="img-responsive" /></p>
-      <p>
-        <a class="btn btn-default" href="plus-geoportail.html" role="button">Know more &raquo;</a>
-        <!--<a class="btn btn-default" href="#" role="button">Démonstration &raquo;</a>-->
-      </p>
+
+      <h3>They trust us</h3>
+      <p>We have already adapted mf-geoadmin3:</p>
+      <ul>
+        <li><a href="https://www.geojb.ch">The GIS portal of Bernese Jura (Switzerland)</a></li>
+        <li>Geoportals for more that 20 towns in Bernese Jura (Switzerland) (private portals)</li>
+      </ul>
+
     </div>
 
     <div class="col-md-6">
@@ -111,11 +86,13 @@ Mobile and geolocation support are already here!">
         <li>Edit maps directly within your browser</li>
       </ul>
       <p><img src="images/ambulances.png" alt="Ambulances Application" class="img-responsive" /></p>
-      <p>
-        <a class="btn btn-default" href="plus-application.html" role="button">Know more &raquo;</a>
-      </p>
     </div>
   </div>
+</section>
+
+<section class="container">  
+<div class="text-center"> <a class="btn btn-default push-right" href="#" onclick="WriteMe('contact'); return false;" role="button">Contact us</a>
+<p>&nbsp;</p>
 </section>
 
 <!-- FOOTER -->
