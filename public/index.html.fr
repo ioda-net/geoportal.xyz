@@ -108,7 +108,7 @@ Le support des interfaces mobiles ainsi que la géolocalisation sont déjà disp
 	  <p>Nous avons déjà adapté mf-geoadmin3 :</p>
 	  <ul>
 	    <li><a href="https://www.geojb.ch">Le portail cartographique du Jura Bernois (Suisse)</a></li>
-	    <li>Les portails de plus de 20 communes dans le Jura Bernois (Suisse) (portails non accessibles publiquement)</li>
+	    <li>Les portails de plus de 20 communes dans le Jura Bernois (Suisse)</li>
 	  </ul>
     </div>
 
@@ -124,7 +124,8 @@ Le support des interfaces mobiles ainsi que la géolocalisation sont déjà disp
       <p>
       Professionnels ou associations, nous sommes tout à fait ouverts à vous rencontrer, à analyser vos questions sur le géoportail, et à envisager les solutions
       les plus adaptées à vos conditions de travail ou de loisirs. Nous travaillons en mode Agile, ce qui nous permet de tester plutôt rapidement la faisabilité des belles idées,
-      et de vous donner une estimation réaliste du temps de travail et des coûts associés. Alors n'hésitez plus, contactez-nous.      
+      et de vous donner une estimation réaliste du temps de travail et des coûts associés. Alors n'hésitez plus, contactez-nous.
+      </p>
       
       <!--<p><a class="btn btn-default" href="plus-application.html" role="button">En savoir plus &raquo;</a></p>-->
       

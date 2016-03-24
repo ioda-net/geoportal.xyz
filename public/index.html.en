@@ -62,22 +62,26 @@ Mobile and geolocation support are already here!">
   <!-- Example row of columns -->
   <div class="row">
     <div class="col-md-6">
-      <h2>Full geoportal</h2>
+      <h2>From full geoportal</h2>
       <p>Our geoportal product is based on <a href="https://map.geo.admin.ch">mf-geoadmin3</a>, an Open Source geoportal created by the Swiss Federal Office of Topography. This product, both full featured and easy to use, is considered to be one of the best in the market.</p>
-      <p>We propose to adapt it to your needs by adding or modifying features. We can also host your data and your map server.</p>
       <p><img src="images/geoportail.png" alt="Geoportal" class="img-responsive" /></p>
+      <p>
+        We are able to adapt this solution to your needs and the needs of your clients.
+        We can add or modify features to give you the customized geoportal you want.
+        We can also host your data and your mapping server in our infrastructure.
+      </p>
 
       <h3>They trust us</h3>
-      <p>We have already adapted mf-geoadmin3:</p>
+      <p>We already have adapted mf-geoadmin3:</p>
       <ul>
         <li><a href="https://www.geojb.ch">The GIS portal of Bernese Jura (Switzerland)</a></li>
-        <li>Geoportals for more that 20 towns in Bernese Jura (Switzerland) (private portals)</li>
+        <li>Geoportals for more that 20 towns in Bernese Jura (Switzerland)</li>
       </ul>
 
     </div>
 
     <div class="col-md-6">
-      <h2>Custom applications</h2>
+      <h2>to custom applications</h2>
       <p>Don't need a full geoportal? We can develop small and targeted mapping applications for your needs.</p>
       <p>Thanks to these small applications, we will be able to:</p>
       <ul>
@@ -86,6 +90,11 @@ Mobile and geolocation support are already here!">
         <li>Edit maps directly within your browser</li>
       </ul>
       <p><img src="images/ambulances.png" alt="Ambulances Application" class="img-responsive" /></p>
+      <p>
+        Businesses or not-for-profit organizations, we can analyse your needs and find together the best solutions for your needs and working conditions.
+        Since, we work with agile methods, we are able to quickly test your ideas and improve the application with your feedback while remaining time and cost effective.
+        Do not hesitate to contact us!
+      </p>
     </div>
   </div>
 </section>
