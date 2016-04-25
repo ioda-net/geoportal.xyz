@@ -3,7 +3,7 @@
 <!--[if gt IE 8]><!--><html class="no-js" lang="fr" > <!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Geoportail.xyz by Ioda-Net Sàrl</title>
+<title>Geoportail.xyz par Ioda-Net Sàrl</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,16 +16,13 @@
 <meta name="copyright" content="©2015 Ioda-Net Sàrl">
 <meta name="generator" content="ten fingers">
 <meta name="language" content="fr">
-<!--
-<meta name="verify-v1" content="">
--->
 <meta name="google-site-verification" content="JMuae0pN3XwIsDdcyR_oquLg5UKFk60PzgfLa1PPNLI" />
 
 <meta http-equiv="robots" content="index, follow, noimageindex, snippet">
 
-<meta name="description" content="Réalisation de géoportails ou d'application cartographiques basés sur des outils open-source.
-Nos solutions s'adaptent à tout types de besoins.
-Le support des interfaces mobiles ainsi que la géolocalisation sont déjà disponibles.">
+<meta name="description" content="Réalisation de géoportails ou d'application cartographiques basés sur des outils OpenSource.
+Nos solutions s'adaptent à tout type de besoins.
+Les interfaces mobiles et la géolocalisation sont déjà disponibles.">
 <meta name="keywords" content="géoportail, géo-portail, suisse, jura, mf-geadmin, sit, sig, geodata, application, carte, géomatique, mobile, geoportal">
 
 <base href="./" />
@@ -49,41 +46,26 @@ Le support des interfaces mobiles ainsi que la géolocalisation sont déjà disp
 <!--[if lt IE 9]><script type="text/javascript" src="/js/html5shiv-3.7.2.min.js"></script><![endif]-->
 </head>
 <body>
-<!--
+
 <nav id="atop" class="navbar navbar-default fixednav" role="navigation">
- <header class="header"><div class="top-bar">&nbsp;</div></header>
-<div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Menu</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="./index.html" title="">Les solutions Open Source pour visualiser vos données
-          <img id="main-logo" src="./images/header.png" class="img-responsive hidden-xs hidden-sm hidden-md" alt="logo" />
-          <img id="main-logo" src="./images/header-xs.png" class="img-responsive visible-xs visible-sm visible-md" alt="logo" />
-      </a> 
-    </div>
-    <div class="navbar-collapse collapse navbar-right">
-        <ul class="nav navbar-nav">
-	        <li><a href="page1.html"><i class="fa fa-sort-alpha-desc"></i></a></li>
-			<li><a href="page2.html"><i class="fa fa-anchor"></i></a></li>
-			<li><a href="page3.html"><i class="fa fa-user"></i></a></li>
-			<li><a href="page4.html"><i class="fa fa-magic"></i></a></li>
-			<li><a href="page5.html"><i class="fa fa-camera"></i></a></li>
-		</ul>
-    </div>
-   
-</div>
+ <header class="header">
+     <ul class="nav navbar-nav">
+      <li class="active"><a href="./index.html.fr">Accueil</a></li>
+      <li><a href="./plus-geoportail.html.fr">Géoportail</a></li>
+      <li><a href="./plus-application.html.fr">Application</a></li>
+     </ul>
+ </header>
 </nav>
- -->
+ 
 <section>
-    <div class="top-bar" style="height:8px;line-height:8px;">&nbsp;</div>
     <div class="jumbotron">
       <div class="container text-center">
-        <h1>Des solutions pour vos géo-données</h1>
-        <p>Adaptation - Publication - Visualisation</p>
+        <h1>
+          geoportal.xyz
+          <br>
+          Des solutions pour vos géo-données
+        </h1>
+        <p>Publication – Visualisation – Interaction</p>
 		<div class="text-center"> <a class="btn btn-default push-right" href="#" onclick="WriteMe('contact'); return false;" role="button">Nous contacter</a>
 		</div>        
       </div>
@@ -96,45 +78,53 @@ Le support des interfaces mobiles ainsi que la géolocalisation sont déjà disp
   <!-- Example row of columns -->
   <div class="row">
     <div class="col-md-6">
-      <h2>Du géoportail professionnel</h2>
-      <p>
-      Vous connaissez certainement le Géoportail open Source Fédéral <a href="https://map.geo.admin.ch">mf-geoadmin3</a> crée par l'office fédéral suisse de topographie
-      Swisstopo. Cette solution complète et ergonomique, est considérée comme une des meilleures du marché.</p>
-     
-      <p><img src="images/geoportail.png" alt="Géoportail" class="img-responsive" /></p>
-       <p>Nous avons les compétences et les moyens d'adapter cette solution à vos besoins ou/et à ceux de vos clients. Vous obtenez donc un géoportail sur-mesure et totalement 
-      personnalisé. Et vous pouvez évidemment ajouter et modifier des fonctionnalités existantes. Nous pouvons également héberger vos données et votre serveur de carte.</p>
-	  <h3>Ils nous font confiance</h3>
-	  <p>Nous avons déjà adapté mf-geoadmin3 :</p>
-	  <ul>
-	    <li><a href="https://www.geojb.ch">Le portail cartographique du Jura Bernois (Suisse)</a></li>
-	    <li>Les portails de plus de 20 communes dans le Jura Bernois (Suisse)</li>
-	  </ul>
+      <div class="col-md-12">
+        <h2>Du géoportail professionnel</h2>
+        <p>
+          Notre solution est basée sur le géoportail OpenSource fédéral <a href="https://map.geo.admin.ch">mf-geoadmin3</a> créé par Swisstopo, l'office fédéral suisse de topographie.
+          Cette solution complète et ergonomique, est considérée comme une des meilleures du marché.
+          Ioda-Net vous propose de l'adapter à vos besoins pour vous fournir un géoportail personnalisé.
+        </p>
+        <p>
+          <a href="./plus-geoportail.html.fr">
+            <img src="images/geoportail.png" alt="Géoportail" class="img-responsive" />
+          </a>
+        </p>
+
+        <a class="btn btn-default" href="./plus-geoportail.html.fr" role="button">En savoir plus &raquo;</a>
+        <a class="btn btn-default" href="https://map.geoportal.xyz" role="button" target="_blank">Démonstration &raquo;</a>
+      </div>
     </div>
 
     <div class="col-md-6">
+      <div class="col-md-12">
       <h2>à l'application spécifique</h2>
-      <p>Nous développons aussi des applications cartographiques plus simples, répondant à un besoin métier spécifique ou ponctuel, vous permettant par exemple de :</p>
+      <p>Nous développons aussi des applications cartographiques plus simples, répondant à un besoin métier ou ponctuel, vous permettant par exemple de :</p>
       <ul>
-        <li>Naviguer via une interface simplifiée</li>
-        <li>Visualiser certaines données cibles</li>
-        <li>Éditer des cartes directement depuis votre navigateur web</li>
+        <li>Visualiser vos données cartographiques via une interface simplifiée (compatible PC, tablettes et mobiles).</li>
+        <li>Éditer des cartes.</li>
+        <li>Entrer des informations géolocalisées.</li>
+        <li>Faire des recherches sur les données.</li>
+        <li>Utiliser l'application sans réseau.</li>
       </ul>
-      <p><img src="images/ambulances.png" alt="Application ambulances" class="img-responsive" /></p>
       <p>
-      Professionnels ou associations, nous sommes tout à fait ouverts à vous rencontrer, à analyser vos questions sur le géoportail, et à envisager les solutions
-      les plus adaptées à vos conditions de travail ou de loisirs. Nous travaillons en mode Agile, ce qui nous permet de tester plutôt rapidement la faisabilité des belles idées,
-      et de vous donner une estimation réaliste du temps de travail et des coûts associés. Alors n'hésitez plus, contactez-nous.
+        <a href="./plus-application.html.fr">
+          <img src="images/ambulances.png" alt="Application ambulances" class="img-responsive" />
+        </a>
       </p>
       
-      <!--<p><a class="btn btn-default" href="plus-application.html" role="button">En savoir plus &raquo;</a></p>-->
-      
+      <p><a class="btn btn-default" href="./plus-application.html.fr" role="button">En savoir plus &raquo;</a></p>
+      </div>
     </div>
   </div>
 </section>
-<section class="container">  
-<div class="text-center"> <a class="btn btn-default push-right" href="#" onclick="WriteMe('contact'); return false;" role="button">Nous contacter</a>
-<p>&nbsp;</p>
+<section class="container">
+  <p>&nbsp;</p>
+  <div class="text-center">
+    <a class="btn btn-default push-right" href="#" onclick="WriteMe('contact'); return false;" role="button">Nous contacter</a>
+  </div>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
 </section>
 
 <!-- FOOTER -->
@@ -164,8 +154,7 @@ Le support des interfaces mobiles ainsi que la géolocalisation sont déjà disp
             </div>
        </div>
 		<div id="copyright">
-			&copy; 1998-2015 Ioda-Net Sàrl Tous droits réservés.		</div>
-        <div id="sitemap"><a href="/sitemap">sitemap</a></div>
+			&copy; 1998-2016 Ioda-Net Sàrl Tous droits réservés.		</div>
 </footer>
 
 

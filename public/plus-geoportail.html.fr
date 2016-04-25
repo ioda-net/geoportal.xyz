@@ -3,7 +3,7 @@
 <!--[if gt IE 8]><!--><html class="no-js" lang="fr" > <!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Geoportail.xyz - Réalisation de géoportail</title>
+<title>Geoportail.xyz - Géoportail</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -20,9 +20,9 @@
 
 <meta http-equiv="robots" content="index, follow, noimageindex, snippet">
 
-<meta name="description" content="Géoportails basés sur map.geo.admin.ch, notre adaptation gère les multiportails,
-Utilisent Mapserver, python, sphinx-search pour la partie serveur, et AngularJS, openlayers 3, bootstrap pour la partie
-client (mode web). 
+<meta name="description" content="Géoportails basés sur map.geo.admin.ch.
+Notre adaptation gère les multiportails, utilise MapServer, python, sphinx-search pour la partie serveur
+et AngularJS, OpenLayers 3, Bootstrap pour la partie client (mode web).
 ">
 <meta name="keywords" content="geoportail,geo-portail,geoportal,mapserver,map.geo.admin.ch,mf-geoadmin3,mf-chsdi3,git,postgresql,postgis,openlayers,3d,wms,wmts,wfs,wfs-t,python,angularjs,javascript,geojb">
 
@@ -35,6 +35,7 @@ client (mode web).
 <link href="css/font-awesome.min.css" media="screen" rel="stylesheet" type="text/css">
 <link href="css/fonts.css" media="screen" rel="stylesheet" type="text/css">
 <link href="css/flexslider.css" media="screen" rel="stylesheet" type="text/css">
+<link href="css/carousel.css" media="screen" rel="stylesheet" type="text/css">
 <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css">
 
 <link href="apple-touch-icon-144x144-precomposed.png" rel="/apple-touch-icon-precomposed" sizes="144x144" />
@@ -48,87 +49,194 @@ client (mode web).
 </head>
 <body>
 <nav id="atop" class="navbar navbar-default fixednav" role="navigation">
-<!-- <header class="header"><div class="top-bar">&nbsp;</div></header> -->
-<div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Menu</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="./index.html.fr" title="">Solutions cartographiques Open Source
-
-      </a>
-    </div>
-</div>
+ <header class="header">
+   <ul class="nav navbar-nav">
+    <li><a href="./index.html.fr">Accueil</a></li>
+    <li class="active"><a href="./plus-geoportail.html.fr">Géoportail</a></li>
+    <li><a href="./plus-application.html.fr">Application</a></li>
+   </ul>
+ </header>
 </nav>
 
 <!-- CONTENU -->
 <section class="container">
+  <div class="row">
+      <h1>Des géoportails complets</h1>
 
-      <div class="row">
-          <h2>Des géoportails complets</h2>
-          <p>Notre solution de géoportail est basée sur <a href="https://map.geo.admin.ch">mf-geoadmin3</a>, une solution OpenSource créée par l'office fédéral suisse de topographie. Cette solution, à la fois simple, complète et ergonomique, est considérée comme une des meilleures du marché.</p>
-          <p>Nous vous proposons d'adapter cette solution à vos besoins en ajoutant ou modifiant des fonctionnalités existantes. Nous pouvons également héberger vos données et votre serveur de carte.</p>
-          <p>Avec cette solution, vous disposez d'une interface ergonomique pour : </p>
-          <ul>
-            <li>Visualiser vos données géographiques</li>
-            <li>Organiser vos couches</li>
-            <li>Importer des données depuis un serveur externe (WMS, WMTS, WFS)</li>
-            <li>Dessiner</li>
-            <li>Interroger des couches</li>
-            <li>Partager les cartes et vos dessins</li>
-            <li>Imprimer</li>
-            <li>Collaborer sur des dessins</li>
-            <li>Éditer des cartes directement depuis l'interface web</li>
-          </ul>
-          <p><img src="images/geoportail.png" alt="Géoportail" class="img-responsive" /></p>
-          <p>
-           <!-- <a class="btn btn-default" href="#" role="button">Démonstration &raquo;</a> -->
-            <a class="btn btn-default" href="#" onclick="WriteMe('contact'); return false;" role="button">Nous contacter pour un devis &raquo;</a>
-            <!--<a class="btn btn-default" href="#" role="button">Comment ça marche ? &raquo;</a>-->
-          </p>
-          <h3>Ils nous ont fait confiance</h3>
-          <p>Nous avons déjà adapté mf-geoadmin3 :</p>
-          <ul>
-            <li><a href="https://www.geojb.ch">Le portail cartographique du Jura Bernois (Suisse)</a></li>
-            <li>Les portails de plus de 20 communes dans le Jura Bernois (Suisse) (portails non accessibles publiquement)</li>
-          </ul>
+      <p>
+        Notre solution de géoportail est basée sur <a href="https://map.geo.admin.ch">mf-geoadmin3</a>, une solution OpenSource créée par l'office fédéral suisse de topographie.
+        Cette solution moderne est basée sur les technologies web actuelles <strong>(HTML5, JavaScript, CSS3)</strong> et est compatibles avec <strong>tous les principaux navigateurs web</strong> (Firefox, Chrome, Safari et Internet Exporer >= 10).
+        L'interface fonctionne bien évidement <strong>sur ordinateurs, smartphones et tablettes</strong>.
+      </p>
+
+      <p></p>
+
+
+      <h2>Fonctionnalités</h2>
+
+      <p>Notre géoportail vous permettra nottament de :</p>
+
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+          <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+          <li data-target="#myCarousel" data-slide-to="3" class=""></li>
+          <li data-target="#myCarousel" data-slide-to="4" class=""></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div role="presentation" class="item active">
+            <img class="first-slide" src="images/geoportail.png" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption">
+                <p>visualiser simplement vos cartes</p>
+              </div>
+            </div>
+          </div>
+          <div role="presentation" class="item">
+            <img class="second-slide" src="images/topics.png" alt="Second slide">
+            <div class="container">
+              <div class="carousel-caption">
+                <p>organiser simplement vos couches par sujet avec un catalogue</p>
+              </div>
+            </div>
+          </div>
+          <div role="presentation" class="item">
+            <img class="third-slide" src="images/importwms.png" alt="Third slide">
+            <div class="container">
+              <div class="carousel-caption">
+                <p>importer des données depuis un serveur externe (WMS, WMTS, WFS)</p>
+              </div>
+            </div>
+          </div>
+          <div role="presentation" class="item">
+            <img class="third-slide" src="images/dessin.png" alt="Third slide">
+            <div class="container">
+              <div class="carousel-caption">
+                <p>dessiner sur la carte et sauvegarder vos dessins</p>
+              </div>
+            </div>
+          </div>
+          <div role="presentation" class="item">
+            <img class="third-slide" src="images/attributs.png" alt="Third slide">
+            <div class="container">
+              <div class="carousel-caption">
+                <p>faire des requêtes sur les attributs des couches visualisées</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Précédent</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Suivant</span>
+        </a>
       </div>
 
-      <hr>
+      <p class="text-center">
+        <a class="btn btn-default" href="https://map.geoportal.xyz" role="button" target="_blank">Démonstration &raquo;</a>
+        <a class="btn btn-default" href="#" onclick="WriteMe('contact'); return false;" role="button">Nous contacter &raquo;</a>
+      </p>
+
+
+      <h4>Mais aussi</h4>
+
+      <ul>
+        <li>De protéger l'accès au portail ou à certaines couches.</li>
+        <li>D'imprimer vos cartes.</li>
+        <li>De réorganiser les couches en drag & drop.</li>
+        <li>De partager de vos cartes via permalien ou réseaux sociaux.</li>
+        <li>De placer des couches en cache pour améliorer la performance de l'application.</li>
+        <li>D'ajouter vos fonctionnalités spécifiques !</li>
+      </ul>
+
+
+      <h2>Infrastructure</h2>
+
+      <p>
+        La création d'un nouveau géoportail peut s'intégrer facilement dans une infrastructure WMS/WMTS existante :
+        à partir des GetCapabilities et d'un fichier de configuration, nous pouvons créer un portail avec vos données.
+        Ceci vous permez de garder le contrôle absolu sur celles-ci tout en les publiant avec des standards reconnus.
+      </p>
+      <p>
+        Nous pouvons également créer une infrastructure sur mesure pour répondre parfaitement à votre organisation
+        (publication des données, gestion multi-portails).
+      </p>
+
+
+      <h2>Nos offres</h2>
+
+      <ul>
+        <li>Hébergement :
+          <ul>
+            <li>Géoportail seul : XXXCHF/mois <em>pendant 6 mois minimum</em>.</li>
+            <li>Géoportail et géodonnées : XXXCHF/mois <em>pendant 6 mois minimum</em>.</li>
+          </ul>
+        </li>
+        <li>Dévelopement : ajouts ou modifications de fonctionnalités, personnalisation. Exemples :
+          <ul>
+            <li>Changement de la présentation des attributs. Temps estimé : 50 heures.</li>
+            <li>Ajout de l'import WMTS. Temps estimé : 20 heures.</li>
+            <li>Amélioration des outils de dessin. Temps estimé : 60 heures.</li>
+          </ul>
+        </li>
+        <li>Possiblité de désactiver certaines fonctionnalités.</li>
+        <li>Support et formation</li>
+      </ul>
+
+      <p>
+        N'hésiter pas à nous contacter pour plus de précision.
+      </p>
+
+      <p>
+        <a class="btn btn-default" href="#" onclick="WriteMe('contact'); return false;" role="button">Nous contacter &raquo;</a>
+      </p>
+
+      <br>
+
+      <h2>Ils nous font confiance</h2>
+      <p>Nous avons déjà adapté mf-geoadmin3 :</p>
+      <ul>
+        <li><a href="https://www.geojb.ch">Le portail cartographique du Jura Bernois (Suisse)</a></li>
+        <li>Les portails de plus de 20 communes dans le Jura Bernois (Suisse)</li>
+      </ul>
+  </div>
+
+  <br>
 </section>
 
 <!-- FOOTER -->
 <footer>
   <a href="/#atop" class="top-btn" title="Haut de page"> <i class="fa fa-angle-up"></i></a>
-        <div itemscope itemtype="http://schema.org/Organization" class="container">
-            <div class="col-sm-12 col-md-3">
-                <img itemprop="logo" src="images/logo.png" style="width: 32px; height:32px; float:left; margin-right: 12px;" />
-                <p itemprop="legalName">Ioda-Net <span class="light">Sàrl</span></p>
-            </div>
-            <div class="col-sm-12 col-md-3">
-                <i class="fa fa-phone"></i><span itemprop="telephone" style="padding-left:6px">+41 32 435 7171</span>
-                <br />
-                <i class="fa fa-fax"></i><span itemprop="faxNumber" style="padding-left:6px">+41 32 435 7172</span>
-            </div>
-            <div class="col-sm-12 col-md-3">
-                <a href="#" onclick="WriteMe('contact'); return false;"><i class="fa fa-at"></i><span itemprop="email" style="padding-left:6px">contact<i class="fa fa-at"></i>ioda-net.ch</span></a>
-                <br />
-                <a href="/"><i class="fa fa-link"></i><span itemprop="url" style="padding-left:6px">www.ioda-net.ch</span></a>
-            </div>
-            <div class="col-sm-12 col-md-3">
-                <i class="fa fa-building" style="float:left; margin-bottom:2.0em; margin-right:0.25em;"></i>
-                <div itemprop="PostalAddress"><span itemprop="streeAddress">&nbsp;Le Paigre 45</span>,
-                <br />&nbsp;
-                <span itemprop="countryCode">CH</span>-<span itemprop="postalCode">2947</span> <span itemprop="addressLocality">Charmoille</span>
-                </div>
-            </div>
-       </div>
-                <div id="copyright">
-                        &copy; 1998-2015 Ioda-Net Sàrl Tous droits réservés.            </div>
-        <div id="sitemap"><a href="/sitemap">sitemap</a></div>
+  <div itemscope itemtype="http://schema.org/Organization" class="container">
+      <div class="col-sm-12 col-md-3">
+          <img itemprop="logo" src="images/logo.png" style="width: 32px; height:32px; float:left; margin-right: 12px;" />
+          <p itemprop="legalName">Ioda-Net <span class="light">Sàrl</span></p>
+      </div>
+      <div class="col-sm-12 col-md-3">
+          <i class="fa fa-phone"></i><span itemprop="telephone" style="padding-left:6px">+41 32 435 7171</span>
+          <br />
+          <i class="fa fa-fax"></i><span itemprop="faxNumber" style="padding-left:6px">+41 32 435 7172</span>
+      </div>
+      <div class="col-sm-12 col-md-3">
+          <a href="#" onclick="WriteMe('contact'); return false;"><i class="fa fa-at"></i><span itemprop="email" style="padding-left:6px">contact<i class="fa fa-at"></i>ioda-net.ch</span></a>
+          <br />
+          <a href="/"><i class="fa fa-link"></i><span itemprop="url" style="padding-left:6px">www.ioda-net.ch</span></a>
+      </div>
+      <div class="col-sm-12 col-md-3">
+          <i class="fa fa-building" style="float:left; margin-bottom:2.0em; margin-right:0.25em;"></i>
+          <div itemprop="PostalAddress"><span itemprop="streeAddress">&nbsp;Le Paigre 45</span>,
+          <br />&nbsp;
+          <span itemprop="countryCode">CH</span>-<span itemprop="postalCode">2947</span> <span itemprop="addressLocality">Charmoille</span>
+          </div>
+      </div>
+  </div>
+  <div id="copyright">
+          &copy; 1998-2016 Ioda-Net Sàrl Tous droits réservés.            </div>
 </footer>
 
 

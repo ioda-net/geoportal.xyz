@@ -3,7 +3,7 @@
 <!--[if gt IE 8]><!--><html class="no-js" lang="fr" > <!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Geoportail.xyz - Réalisation d'application</title>
+<title>Geoportail.xyz - Applications cartographiques</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -44,20 +44,13 @@
 </head>
 <body>
 <nav id="atop" class="navbar navbar-default fixednav" role="navigation">
-<!-- <header class="header"><div class="top-bar">&nbsp;</div></header> -->
-<div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Menu</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="./index.html.fr" title="">Solutions cartographiques Open Source
-
-      </a>
-    </div>
-</div>
+ <header class="header">
+   <ul class="nav navbar-nav">
+    <li><a href="./index.html.fr">Accueil</a></li>
+    <li><a href="./plus-geoportail.html.fr">Géoportail</a></li>
+    <li class="active"><a href="./plus-application.html.fr">Application</a></li>
+   </ul>
+ </header>
 </nav>
 
 <!-- CONTENU -->
@@ -65,20 +58,31 @@
 
       <!-- Example row of columns -->
       <div class="row">
-        <h2>Des applications spécifiques</h2>
-        <p>Pas besoin de tout un géoportail ? Nous pouvons développer des applications cartographiques simples et ciblées pour vos besoins.</p>
-        <p>Grâce à ces petites applications, vous pourrez notamment :</p>
-        <ul>
-          <li>Naviguer via une interface simplifiée</li>
-          <li>Visualiser des données</li>
-          <li>Éditer des cartes directement depuis votre navigateur web</li>
-        </ul>
-        <p>Comme nous nous basons sur des solutions OpenSource puissantes et reconnues comme OpenLayers 3 ou AngularJS, nous pouvons vous offrir qualité et rapidité de dévolopement.</p>
+        <h2>Applications cartographiques spécifiques</h2>
+        <p>
+          Pas besoin d'un géoportail ?
+        </p>
+        <p>
+          Nous pouvons développer des applications cartographiques simples et ciblées pour vos besoins.
+          Professionnels ou associations, contactez nous pour que analisions ensemble vos besoins et envisagions les solutions les plus adaptées à ceux-ci.
+        </p>
+        <p>
+          Nous travaillons en mode Agile avec des solutions OpenSource puissantes et reconnues comme OpenLayers 3 ou AngularJS,
+            ce qui nous permet de prototyper rapidement une application basée sur vos spécifications et par itérations successives de réaliser la solution qui vous convient.
+          Vous obtiendrez ainsi qualité et rapidité.
+        </p>
+        <p>
+          Alors n'hésitez plus, contactez nous.
+        </p>
         <p>
           <a class="btn btn-default" href="#" onclick="WriteMe('contact'); return false;" role="button">Nous contacter &raquo;</a>
         </p>
+
+
         <h3>Exemples</h3>
+        
         <h4>Livreurs à domicile</h4>
+
         <p>Nous avons par exemple réalisé une application pour aider un livreur de produits de la région de Moutier à trouver les accès de bâtiments. Avec cette application, vous pouvez :</p>
         <ul>
           <li>Afficher les bâtiments et les routes de la région</li>
@@ -87,9 +91,6 @@
           <li>Mettre en évidence automatiquement le bâtiment recherché et sa voie d'accès</li>
         </ul>
         <p><img src="images/ambulances.png" alt="Application domicile" class="img-responsive" /></p>
-        <p>
-          <!-- <a class="btn btn-default" href="#" role="button">Démonstration &raquo;</a> -->
-        </p>
       </div>
 
       <hr>
