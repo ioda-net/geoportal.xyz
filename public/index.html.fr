@@ -13,16 +13,16 @@
 <meta http-equiv="lang" content="fr">
 <meta http-equiv="imagetoolbar" content="no">
 <meta name="author" content="Ioda-Net Sàrl">
-<meta name="copyright" content="©2015 Ioda-Net Sàrl">
+<meta name="copyright" content="©2016 Ioda-Net Sàrl">
 <meta name="generator" content="ten fingers">
 <meta name="language" content="fr">
 <meta name="google-site-verification" content="JMuae0pN3XwIsDdcyR_oquLg5UKFk60PzgfLa1PPNLI" />
 
 <meta http-equiv="robots" content="index, follow, noimageindex, snippet">
 
-<meta name="description" content="Réalisation de géoportails ou d'application cartographiques basés sur des outils OpenSource.
-Nos solutions s'adaptent à tout type de besoins.
-Les interfaces mobiles et la géolocalisation sont déjà disponibles.">
+<meta name="description" content="Réalisation de géoportails ou d'application cartographiques basés sur des outils open source.
+Nos solutions s'adaptent à tout type de besoins et de budget.
+Interface mobile, géolocalisation ou encore dessin sont déjà disponibles.">
 <meta name="keywords" content="géoportail, géo-portail, suisse, jura, mf-geadmin, sit, sig, geodata, application, carte, géomatique, mobile, geoportal">
 
 <base href="./" />
@@ -46,18 +46,8 @@ Les interfaces mobiles et la géolocalisation sont déjà disponibles.">
 <!--[if lt IE 9]><script type="text/javascript" src="/js/html5shiv-3.7.2.min.js"></script><![endif]-->
 </head>
 <body>
-
-<nav id="atop" class="navbar navbar-default fixednav" role="navigation">
- <header class="header">
-     <ul class="nav navbar-nav">
-      <li class="active"><a href="./index.html.fr">Accueil</a></li>
-      <li><a href="./plus-geoportail.html.fr">Géoportail</a></li>
-      <li><a href="./plus-application.html.fr">Application</a></li>
-     </ul>
- </header>
-</nav>
- 
-<section>
+<section id="atop">
+    <div class="top-bar" style="height:8px;line-height:8px;">&nbsp;</div>
     <div class="jumbotron">
       <div class="container text-center">
         <h1>
@@ -65,9 +55,8 @@ Les interfaces mobiles et la géolocalisation sont déjà disponibles.">
           <br>
           Des solutions pour vos géo-données
         </h1>
-        <p>Publication – Visualisation – Interaction</p>
-		<div class="text-center"> <a class="btn btn-default push-right" href="#" onclick="WriteMe('contact'); return false;" role="button">Nous contacter</a>
-		</div>        
+        <p>Adaptation - Publication – Visualisation</p>
+        <div class="text-center"> <a class="btn btn-default push-right" href="#" onclick="WriteMe('contact'); return false;" role="button">Nous contacter</a></div>
       </div>
     </div>
 </section>
@@ -81,7 +70,7 @@ Les interfaces mobiles et la géolocalisation sont déjà disponibles.">
       <div class="col-md-12">
         <h2>Du géoportail professionnel</h2>
         <p>
-          Notre solution est basée sur le géoportail OpenSource fédéral <a href="https://map.geo.admin.ch">mf-geoadmin3</a> créé par Swisstopo, l'office fédéral suisse de topographie.
+          Notre solution est basée sur le géoportail open source fédéral <a href="https://map.geo.admin.ch">mf-geoadmin3</a> créé par Swisstopo, l'office fédéral suisse de topographie.
           Cette solution complète et ergonomique, est considérée comme une des meilleures du marché.
           Ioda-Net vous propose de l'adapter à vos besoins pour vous fournir un géoportail personnalisé.
         </p>
@@ -109,7 +98,7 @@ Les interfaces mobiles et la géolocalisation sont déjà disponibles.">
       </ul>
       <p>
         <a href="./plus-application.html.fr">
-          <img src="images/ambulances.png" alt="Application ambulances" class="img-responsive" />
+          <img src="images/ambulances.png" alt="Application mobile" class="img-responsive" />
         </a>
       </p>
       
@@ -127,34 +116,32 @@ Les interfaces mobiles et la géolocalisation sont déjà disponibles.">
   <p>&nbsp;</p>
 </section>
 
-<!-- FOOTER -->
 <footer>
-  <a href="/#atop" class="top-btn" title="Haut de page"> <i class="fa fa-angle-up"></i></a>
-        <div itemscope itemtype="http://schema.org/Organization" class="container">
-            <div class="col-sm-12 col-md-3">
-                <img itemprop="logo" src="images/logo.png" style="width: 32px; height:32px; float:left; margin-right: 12px;" />
-                <p itemprop="legalName">Ioda-Net <span class="light">Sàrl</span></p>
-            </div>
-            <div class="col-sm-12 col-md-3">
-                <i class="fa fa-phone"></i><span itemprop="telephone" style="padding-left:6px">+41 32 435 7171</span>
-                <br />
-                <i class="fa fa-fax"></i><span itemprop="faxNumber" style="padding-left:6px">+41 32 435 7172</span>
-            </div>
-            <div class="col-sm-12 col-md-3">
-                <a href="#" onclick="WriteMe('contact'); return false;"><i class="fa fa-at"></i><span itemprop="email" style="padding-left:6px">contact<i class="fa fa-at"></i>ioda-net.ch</span></a>
-                <br />
-                <a href="/"><i class="fa fa-link"></i><span itemprop="url" style="padding-left:6px">www.ioda-net.ch</span></a>
-            </div>
-            <div class="col-sm-12 col-md-3">
-                <i class="fa fa-building" style="float:left; margin-bottom:2.0em; margin-right:0.25em;"></i>
-                <div itemprop="PostalAddress"><span itemprop="streeAddress">&nbsp;Le Paigre 45</span>,
-                <br />&nbsp;
-                <span itemprop="countryCode">CH</span>-<span itemprop="postalCode">2947</span> <span itemprop="addressLocality">Charmoille</span>
-                </div>
-            </div>
-       </div>
-		<div id="copyright">
-			&copy; 1998-2016 Ioda-Net Sàrl Tous droits réservés.		</div>
+  <a href="index.html.fr#atop" class="top-btn" title="Haut de page"> <i class="fa fa-angle-up"></i></a>
+  <div itemscope itemtype="http://schema.org/Organization" class="container">
+      <div class="col-sm-12 col-md-3">
+          <img itemprop="logo" src="images/logo.png" style="width: 32px; height:32px; float:left; margin-right: 12px;" />
+          <p itemprop="legalName">Ioda-Net <span class="light">Sàrl</span></p>
+      </div>
+      <div class="col-sm-12 col-md-3">
+          <i class="fa fa-phone"></i><span itemprop="telephone" style="padding-left:6px">+41 32 435 7171</span>
+          <br />
+          <i class="fa fa-fax"></i><span itemprop="faxNumber" style="padding-left:6px">+41 32 435 7172</span>
+      </div>
+      <div class="col-sm-12 col-md-3">
+          <a href="#" onclick="WriteMe('contact'); return false;"><i class="fa fa-at"></i><span itemprop="email" style="padding-left:6px">contact<i class="fa fa-at"></i>ioda-net.ch</span></a>
+          <br />
+          <a href="http://www.ioda-net.ch"><i class="fa fa-link"></i><span itemprop="url" style="padding-left:6px">www.ioda-net.ch</span></a>
+      </div>
+      <div class="col-sm-12 col-md-3">
+          <i class="fa fa-building" style="float:left; margin-bottom:2.0em; margin-right:0.25em;"></i>
+          <div itemprop="PostalAddress"><span itemprop="streeAddress">&nbsp;Le Paigre 45</span>,
+          <br />&nbsp;
+          <span itemprop="countryCode">CH</span>-<span itemprop="postalCode">2947</span> <span itemprop="addressLocality">Charmoille</span>
+          </div>
+      </div>
+  </div>
+  <div id="copyright">&copy; 1998-2016 Ioda-Net Sàrl Tous droits réservés.</div>
 </footer>
 
 

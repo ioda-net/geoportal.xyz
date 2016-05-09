@@ -13,18 +13,19 @@
 <meta http-equiv="lang" content="fr">
 <meta http-equiv="imagetoolbar" content="no">
 <meta name="author" content="Ioda-Net Sàrl">
-<meta name="copyright" content="©2015 Ioda-Net Sàrl">
+<meta name="copyright" content="©2016 Ioda-Net Sàrl">
 <meta name="generator" content="">
 <meta name="language" content="fr">
 <meta name="google-site-verification" content="JMuae0pN3XwIsDdcyR_oquLg5UKFk60PzgfLa1PPNLI" />
 
 <meta http-equiv="robots" content="index, follow, noimageindex, snippet">
 
-<meta name="description" content="Géoportails basés sur map.geo.admin.ch.
-Notre adaptation gère les multiportails, utilise MapServer, python, sphinx-search pour la partie serveur
+<meta name="description" content="Découvrez nos solutions géoportails basés sur map.geo.admin.ch.
+Notre adaptation gère les multiportails, utilise MapServer, python 3, sphinx-search pour la partie serveur
 et AngularJS, OpenLayers 3, Bootstrap pour la partie client (mode web).
+A partir de 80 Sfr HT / mois.
 ">
-<meta name="keywords" content="geoportail,geo-portail,geoportal,mapserver,map.geo.admin.ch,mf-geoadmin3,mf-chsdi3,git,postgresql,postgis,openlayers,3d,wms,wmts,wfs,wfs-t,python,angularjs,javascript,geojb">
+<meta name="keywords" content="geoportail,geo-portail,geoportal,mapserver,map.geo.admin.ch,mf-geoadmin3,mf-chsdi3,git,postgresql,postgis,openlayers,3d,wms,wmts,wfs,wfs-t,python,angularjs,javascript,geojb,ioda-net.ch">
 
 <base href="./" />
 
@@ -48,25 +49,23 @@ et AngularJS, OpenLayers 3, Bootstrap pour la partie client (mode web).
 <!--[if lt IE 9]><script type="text/javascript" src="/js/html5shiv-3.7.2.min.js"></script><![endif]-->
 </head>
 <body>
-<nav id="atop" class="navbar navbar-default fixednav" role="navigation">
- <header class="header">
-   <ul class="nav navbar-nav">
-    <li><a href="./index.html.fr">Accueil</a></li>
-    <li class="active"><a href="./plus-geoportail.html.fr">Géoportail</a></li>
-    <li><a href="./plus-application.html.fr">Application</a></li>
-   </ul>
- </header>
-</nav>
-
 <!-- CONTENU -->
+<section  id="atop">
+    <div class="top-bar" style="height:8px;line-height:8px;">&nbsp;</div>
+    <div class="jumbotron">
+      <div class="container text-center">
+      <h1>Des géoportails complets</h1>
+      </div>
+    </div>
+</section>
+
 <section class="container">
   <div class="row">
-      <h1>Des géoportails complets</h1>
-
       <p>
         Notre solution de géoportail est basée sur <a href="https://map.geo.admin.ch">mf-geoadmin3</a>, une solution OpenSource créée par l'office fédéral suisse de topographie.
-        Cette solution moderne est basée sur les technologies web actuelles <strong>(HTML5, JavaScript, CSS3)</strong> et est compatibles avec <strong>tous les principaux navigateurs web</strong> (Firefox, Chrome, Safari et Internet Exporer >= 10).
-        L'interface fonctionne bien évidement <strong>sur ordinateurs, smartphones et tablettes</strong>.
+        Cette solution moderne est basée sur les technologies web actuelles <strong>(HTML5, JavaScript, CSS3)</strong>.
+        Elle est compatible avec <strong>tous les principaux navigateurs web</strong> (Firefox, Chrome, Safari et Internet Exporer >= 10).
+        L'interface fonctionne <strong>sur ordinateurs, smartphones et tablettes</strong>.
       </p>
 
       <p></p>
@@ -74,7 +73,7 @@ et AngularJS, OpenLayers 3, Bootstrap pour la partie client (mode web).
 
       <h2>Fonctionnalités</h2>
 
-      <p>Notre géoportail vous permettra nottament de :</p>
+      <p>Notre géoportail vous permettra notamment de :</p>
 
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
@@ -148,8 +147,8 @@ et AngularJS, OpenLayers 3, Bootstrap pour la partie client (mode web).
       <ul>
         <li>De protéger l'accès au portail ou à certaines couches.</li>
         <li>D'imprimer vos cartes.</li>
-        <li>De réorganiser les couches en drag & drop.</li>
-        <li>De partager de vos cartes via permalien ou réseaux sociaux.</li>
+        <li>De réorganiser les couches en drag &amp; drop.</li>
+        <li>De partager vos cartes via permalien ou réseaux sociaux.</li>
         <li>De placer des couches en cache pour améliorer la performance de l'application.</li>
         <li>D'ajouter vos fonctionnalités spécifiques !</li>
       </ul>
@@ -158,10 +157,12 @@ et AngularJS, OpenLayers 3, Bootstrap pour la partie client (mode web).
       <h2>Infrastructure</h2>
 
       <p>
-        La création d'un nouveau géoportail peut s'intégrer facilement dans une infrastructure WMS/WMTS existante :
-        à partir des GetCapabilities et d'un fichier de configuration, nous pouvons créer un portail avec vos données.
-        Ceci vous permez de garder le contrôle absolu sur celles-ci tout en les publiant avec des standards reconnus.
+        Un nouveau géoportail s'intègre facilement dans une infrastructure WMS/WMTS/WFS existante :
+        à partir des GetCapabilities et d'un fichier de configuration, nous réaliserons votre portail avec vos données.
+        Vous gardez le contrôle sur vos données, tout en les publiant avec des standards reconnus.
+        Vos utilisateurs bénéficient d'une interface moderne et efficace de consultation.
       </p>
+
       <p>
         Nous pouvons également créer une infrastructure sur mesure pour répondre parfaitement à votre organisation
         (publication des données, gestion multi-portails).
@@ -173,11 +174,12 @@ et AngularJS, OpenLayers 3, Bootstrap pour la partie client (mode web).
       <ul>
         <li>Hébergement :
           <ul>
-            <li>Géoportail seul : XXXCHF/mois <em>pendant 6 mois minimum</em>.</li>
-            <li>Géoportail et géodonnées : XXXCHF/mois <em>pendant 6 mois minimum</em>.</li>
+            <li>Sur serveur mutualisé à partir de 80 Sfr HT / mois</li>
+            <li>Sur serveur dédié</li>
+            <li>Dans votre propre infrastructure (Machine virtuelle, ou dédiée)</li>
           </ul>
         </li>
-        <li>Dévelopement : ajouts ou modifications de fonctionnalités, personnalisation. Exemples :
+        <li>Développement : ajouts ou modifications de fonctionnalités, personnalisation. Exemples :
           <ul>
             <li>Changement de la présentation des attributs. Temps estimé : 50 heures.</li>
             <li>Ajout de l'import WMTS. Temps estimé : 20 heures.</li>
@@ -185,25 +187,29 @@ et AngularJS, OpenLayers 3, Bootstrap pour la partie client (mode web).
           </ul>
         </li>
         <li>Possiblité de désactiver certaines fonctionnalités.</li>
-        <li>Support et formation</li>
+        <li>Traitement de données via nos partenaires.</li>
+        <li>Support et formation.</li>
       </ul>
 
       <p>
-        N'hésiter pas à nous contacter pour plus de précision.
+        Envie d'une estimation plus précise adaptée à vos besoins :
       </p>
 
       <p>
-        <a class="btn btn-default" href="#" onclick="WriteMe('contact'); return false;" role="button">Nous contacter &raquo;</a>
+        <a class="btn btn-default" href="#" onclick="WriteMe('contact'); return false;" role="button">Contactez-nous &raquo;</a>
       </p>
 
       <br>
 
-      <h2>Ils nous font confiance</h2>
-      <p>Nous avons déjà adapté mf-geoadmin3 :</p>
+      <h2>Réalisations</h2>
+      <p>Nous avons déjà adapté mf-geoadmin3 pour :</p>
       <ul>
-        <li><a href="https://www.geojb.ch">Le portail cartographique du Jura Bernois (Suisse)</a></li>
-        <li>Les portails de plus de 20 communes dans le Jura Bernois (Suisse)</li>
+        <li>Le portail cartographique du Jura bernois (Suisse) <a href="https://www.geojb.ch">www.geojb.ch</a></li>
+        <li>Les portails de plusieurs communes pour <a href="https://www.sigeom.ch">sigeom sa</a></li>
+        <li>Les portails de plusieurs communes dans le Seeland bernois pour <a href="http://www.la-ing.ch">Lüscher &amp; Aeschlimann AG</a></li>
+        <li>Portail de syndicat communal pour le compte de <a href="http://www.aw-ing.ch">Aeschlimann &amp; Waelti Sàrl</a></li>
       </ul>
+      <p>Merci à eux pour leur confiance, collaboration et soutien.</p>
   </div>
 
   <br>
@@ -211,7 +217,7 @@ et AngularJS, OpenLayers 3, Bootstrap pour la partie client (mode web).
 
 <!-- FOOTER -->
 <footer>
-  <a href="/#atop" class="top-btn" title="Haut de page"> <i class="fa fa-angle-up"></i></a>
+  <a href="plus-geoportail.html#atop" class="top-btn" title="Haut de page"> <i class="fa fa-angle-up"></i></a>
   <div itemscope itemtype="http://schema.org/Organization" class="container">
       <div class="col-sm-12 col-md-3">
           <img itemprop="logo" src="images/logo.png" style="width: 32px; height:32px; float:left; margin-right: 12px;" />
@@ -225,7 +231,7 @@ et AngularJS, OpenLayers 3, Bootstrap pour la partie client (mode web).
       <div class="col-sm-12 col-md-3">
           <a href="#" onclick="WriteMe('contact'); return false;"><i class="fa fa-at"></i><span itemprop="email" style="padding-left:6px">contact<i class="fa fa-at"></i>ioda-net.ch</span></a>
           <br />
-          <a href="/"><i class="fa fa-link"></i><span itemprop="url" style="padding-left:6px">www.ioda-net.ch</span></a>
+          <a href="http://www.ioda-net.ch"><i class="fa fa-link"></i><span itemprop="url" style="padding-left:6px">www.ioda-net.ch</span></a>
       </div>
       <div class="col-sm-12 col-md-3">
           <i class="fa fa-building" style="float:left; margin-bottom:2.0em; margin-right:0.25em;"></i>
@@ -235,8 +241,7 @@ et AngularJS, OpenLayers 3, Bootstrap pour la partie client (mode web).
           </div>
       </div>
   </div>
-  <div id="copyright">
-          &copy; 1998-2016 Ioda-Net Sàrl Tous droits réservés.            </div>
+  <div id="copyright">&copy; 1998-2016 Ioda-Net Sàrl Tous droits réservés.</div>
 </footer>
 
 

@@ -43,88 +43,88 @@
 <!--[if lt IE 9]><script type="text/javascript" src="/js/html5shiv-3.7.2.min.js"></script><![endif]-->
 </head>
 <body>
-<nav id="atop" class="navbar navbar-default fixednav" role="navigation">
- <header class="header">
-   <ul class="nav navbar-nav">
-    <li><a href="./index.html.fr">Accueil</a></li>
-    <li><a href="./plus-geoportail.html.fr">Géoportail</a></li>
-    <li class="active"><a href="./plus-application.html.fr">Application</a></li>
-   </ul>
- </header>
-</nav>
+<section  id="atop">
+    <div class="top-bar" style="height:8px;line-height:8px;">&nbsp;</div>
+    <div class="jumbotron">
+      <div class="container text-center">
+      <h1>Applications géomatiques spécifiques</h1>
+      </div>
+    </div>
+</section>
 
 <!-- CONTENU -->
 <section class="container">
 
       <!-- Example row of columns -->
       <div class="row">
-        <h2>Applications cartographiques spécifiques</h2>
-        <p>
+        <h3>
           Pas besoin d'un géoportail ?
-        </p>
+        </h3>
         <p>
-          Nous pouvons développer des applications cartographiques simples et ciblées pour vos besoins.
-          Professionnels ou associations, contactez nous pour que analisions ensemble vos besoins et envisagions les solutions les plus adaptées à ceux-ci.
+          Nous développons des applications cartographiques simples et adaptées à vos besoins.
+          Professionnels ou associations, n'hésitez pas à nous faire part de vos desiderata.
+          Nous déterminerons ensemble la meilleure façon d'y répondre.
         </p>
-        <p>
-          Nous travaillons en mode Agile avec des solutions OpenSource puissantes et reconnues comme OpenLayers 3 ou AngularJS,
-            ce qui nous permet de prototyper rapidement une application basée sur vos spécifications et par itérations successives de réaliser la solution qui vous convient.
-          Vous obtiendrez ainsi qualité et rapidité.
-        </p>
-        <p>
-          Alors n'hésitez plus, contactez nous.
-        </p>
-        <p>
-          <a class="btn btn-default" href="#" onclick="WriteMe('contact'); return false;" role="button">Nous contacter &raquo;</a>
-        </p>
-
 
         <h3>Exemples</h3>
         
         <h4>Livreurs à domicile</h4>
 
-        <p>Nous avons par exemple réalisé une application pour aider un livreur de produits de la région de Moutier à trouver les accès de bâtiments. Avec cette application, vous pouvez :</p>
+        <p>Nous avons par exemple réalisé l'étude d'une application pour aider un livreur de produits
+        de la région Prévotoise à trouver les accès de bâtiments.<br />
+        Avec cette application, il peut désormais :</p>
         <ul>
           <li>Afficher les bâtiments et les routes de la région</li>
           <li>Rechercher une adresse avec auto-complétion</li>
-          <li>Vous centrer automatiquement sur le bâtiment recheché</li>
-          <li>Mettre en évidence automatiquement le bâtiment recherché et sa voie d'accès</li>
+          <li>Recentrer automatiquement sur le bâtiment désiré</li>
+          <li>Mettre en évidence automatiquement le bâtiment visé et sa voie d'accès</li>
         </ul>
         <p><img src="images/ambulances.png" alt="Application domicile" class="img-responsive" /></p>
       </div>
 
-      <hr>
+      <h3>Démarche</h3>
+        <p>
+          Nous travaillons en mode Agile avec des solutions open source puissantes et reconnues telles que les bibliothèques OpenLayers 3 et AngularJS.
+          Ceci nous permet de prototyper rapidement une application basée sur vos spécifications et par itérations successives de réaliser la solution qui vous convient.
+          Vous obtiendrez ainsi qualité et rapidité.
+        </p>
+
+
+        <h4 class="text-center">
+          <a class="btn btn-default" href="#" onclick="WriteMe('contact'); return false;" role="button">Et si nous en parlions ?</a>
+        </h4>
+
+        <p>&nbsp;</p>
+
 </section>
 
 <!-- FOOTER -->
 <footer>
-  <a href="/#atop" class="top-btn" title="Haut de page"> <i class="fa fa-angle-up"></i></a>
-        <div itemscope itemtype="http://schema.org/Organization" class="container">
-            <div class="col-sm-12 col-md-3">
-                <img itemprop="logo" src="images/logo.png" style="width: 32px; height:32px; float:left; margin-right: 12px;" />
-                <p itemprop="legalName">Ioda-Net <span class="light">Sàrl</span></p>
-            </div>
-            <div class="col-sm-12 col-md-3">
-                <i class="fa fa-phone"></i><span itemprop="telephone" style="padding-left:6px">+41 32 435 7171</span>
-                <br />
-                <i class="fa fa-fax"></i><span itemprop="faxNumber" style="padding-left:6px">+41 32 435 7172</span>
-            </div>
-            <div class="col-sm-12 col-md-3">
-                <a href="#" onclick="WriteMe('contact'); return false;"><i class="fa fa-at"></i><span itemprop="email" style="padding-left:6px">contact<i class="fa fa-at"></i>ioda-net.ch</span></a>
-                <br />
-                <a href="/"><i class="fa fa-link"></i><span itemprop="url" style="padding-left:6px">www.ioda-net.ch</span></a>
-            </div>
-            <div class="col-sm-12 col-md-3">
-                <i class="fa fa-building" style="float:left; margin-bottom:2.0em; margin-right:0.25em;"></i>
-                <div itemprop="PostalAddress"><span itemprop="streeAddress">&nbsp;Le Paigre 45</span>,
-                <br />&nbsp;
-                <span itemprop="countryCode">CH</span>-<span itemprop="postalCode">2947</span> <span itemprop="addressLocality">Charmoille</span>
-                </div>
-            </div>
-       </div>
-                <div id="copyright">
-                        &copy; 1998-2015 Ioda-Net Sàrl Tous droits réservés.            </div>
-        <div id="sitemap"><a href="/sitemap">sitemap</a></div>
+  <a href="plus-application.html#atop" class="top-btn" title="Haut de page"> <i class="fa fa-angle-up"></i></a>
+  <div itemscope itemtype="http://schema.org/Organization" class="container">
+      <div class="col-sm-12 col-md-3">
+          <img itemprop="logo" src="images/logo.png" style="width: 32px; height:32px; float:left; margin-right: 12px;" />
+          <p itemprop="legalName">Ioda-Net <span class="light">Sàrl</span></p>
+      </div>
+      <div class="col-sm-12 col-md-3">
+          <i class="fa fa-phone"></i><span itemprop="telephone" style="padding-left:6px">+41 32 435 7171</span>
+          <br />
+          <i class="fa fa-fax"></i><span itemprop="faxNumber" style="padding-left:6px">+41 32 435 7172</span>
+      </div>
+      <div class="col-sm-12 col-md-3">
+          <a href="#" onclick="WriteMe('contact'); return false;"><i class="fa fa-at"></i><span itemprop="email" style="padding-left:6px">contact<i class="fa fa-at"></i>ioda-net.ch</span></a>
+          <br />
+          <a href="http://www.ioda-net.ch"><i class="fa fa-link"></i><span itemprop="url" style="padding-left:6px">www.ioda-net.ch</span></a>
+      </div>
+      <div class="col-sm-12 col-md-3">
+          <i class="fa fa-building" style="float:left; margin-bottom:2.0em; margin-right:0.25em;"></i>
+          <div itemprop="PostalAddress"><span itemprop="streeAddress">&nbsp;Le Paigre 45</span>,
+          <br />&nbsp;
+          <span itemprop="countryCode">CH</span>-<span itemprop="postalCode">2947</span> <span itemprop="addressLocality">Charmoille</span>
+          </div>
+      </div>
+  </div>
+  <div id="copyright">&copy; 1998-2016 Ioda-Net Sàrl Tous droits réservés.</div>
 </footer>
 
 
