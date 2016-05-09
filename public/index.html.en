@@ -120,7 +120,7 @@ Mobile and geolocation support are already here!">
             <div class="col-sm-12 col-md-3">
                 <a href="#" onclick="WriteMe('contact', 'en'); return false;"><i class="fa fa-at"></i><span itemprop="email" style="padding-left:6px">contact<i class="fa fa-at"></i>ioda-net.ch</span></a>
                 <br />
-                <a href="/"><i class="fa fa-link"></i><span itemprop="url" style="padding-left:6px">www.ioda-net.ch</span></a>
+                <a href="http://www.ioda-net.ch"><i class="fa fa-link"></i><span itemprop="url" style="padding-left:6px">www.ioda-net.ch</span></a>
             </div>
             <div class="col-sm-12 col-md-3">
                 <i class="fa fa-building" style="float:left; margin-bottom:2.0em; margin-right:0.25em;"></i>
@@ -130,9 +130,7 @@ Mobile and geolocation support are already here!">
                 </div>
             </div>
        </div>
-		<div id="copyright">
-			&copy; 1998-2016 Ioda-Net Sàrl All rights reserved.		</div>
-        <div id="sitemap"><a href="/sitemap">sitemap</a></div>
+  <div id="copyright">&copy; 1998-2016 Ioda-Net Sàrl All rights reserved.</div>
 </footer>
 
 
