@@ -20,9 +20,9 @@
 <meta http-equiv="robots" content="index, follow, noimageindex, snippet">
 
 <meta name="description" content="Development of geoportals or GIS applications based on OpenSource libraries.
-Our solutions are adaptable to any needs.
-Mobile and geolocation support are already here!">
-<meta name="keywords" content="geoportal, geo-portal, switzerland, jura, mf-geadmin, sit, sig, geodata, application, map, geomatic, mobile">
+Our solutions are adaptable to fit any needs and costs.
+Mobile interface, geolocation and drawing are already available!">
+<meta name="keywords" content="geoportal, geo-portal, switzerland, jura, mf-geadmin, sit, sig, geodata, application, map, geomatic, mobile, ioda-net.ch">
 
 <base href="./" />
 
@@ -45,13 +45,18 @@ Mobile and geolocation support are already here!">
 <!--[if lt IE 9]><script type="text/javascript" src="/js/html5shiv-3.7.2.min.js"></script><![endif]-->
 </head>
 <body>
-<section>
-	<div class="top-bar" style="height:8px;line-height:8px;">&nbsp;</div>
+<section id="atop">
+    <div class="top-bar" style="height:8px;line-height:8px;">&nbsp;</div>
     <div class="jumbotron">
       <div class="container text-center">
-        <h1>Solutions for your geo-data</h1>
-        <p>Adaptation - Publication - Visualisation</p>
+        <h1>
+          geoportal.xyz
+          <br>
+          Solutions for your geo-data
+        </h1>
+        <p>Adaptation — Publication – Visualization</p>
 		<div class="text-center"> <a class="btn btn-default push-right" href="#" onclick="WriteMe('contact'); return false;" role="button">Contact us</a>
+        </div>
       </div>
     </div>
 </section>
@@ -62,39 +67,44 @@ Mobile and geolocation support are already here!">
   <!-- Example row of columns -->
   <div class="row">
     <div class="col-md-6">
-      <h2>From full geoportal</h2>
-      <p>Our geoportal product is based on <a href="https://map.geo.admin.ch">mf-geoadmin3</a>, an Open Source geoportal created by the Swiss Federal Office of Topography. This product, both full featured and easy to use, is considered to be one of the best in the market.</p>
-      <p><img src="images/geoportail.png" alt="Geoportal" class="img-responsive" /></p>
+      <h2>From professional geoportal</h2>
       <p>
-        We are able to adapt this solution to your needs and the needs of your clients.
-        We can add or modify features to give you the customized geoportal you want.
-        We can also host your data and your mapping server in our infrastructure.
+        Our geoportal product is based on <a href="https://map.geo.admin.ch">mf-geoadmin3</a>, an open source geoportal created by Swisstopo, the Swiss Federal Office of Topography.
+        This product, both full featured and easy to use, is considered to be one of the best in the market.
+        Ioda-Net can adapt this solution to fit your needs to provide you with a custom geoportal.
       </p>
 
-      <h3>They trust us</h3>
-      <p>We already have adapted mf-geoadmin3:</p>
-      <ul>
-        <li><a href="https://www.geojb.ch">The GIS portal of Bernese Jura (Switzerland)</a></li>
-        <li>Geoportals for more that 20 towns in Bernese Jura (Switzerland)</li>
-      </ul>
+      <p>
+        <a href="./plus-geoportail.html.en">
+          <img src="images/geoportail.png" alt="Géoportail" class="img-responsive" />
+        </a>
+      </p>
 
+      <a class="btn btn-default" href="./plus-geoportail.html.en" role="button">More &raquo;</a>
+      <a class="btn btn-default" href="https://map.geoportal.xyz" role="button" target="_blank">Demonstration &raquo;</a>
     </div>
 
     <div class="col-md-6">
-      <h2>to custom applications</h2>
-      <p>Don't need a full geoportal? We can develop small and targeted mapping applications for your needs.</p>
-      <p>Thanks to these small applications, we will be able to:</p>
-      <ul>
-        <li>Navigate with an easy to use interface</li>
-        <li>See data on a map</li>
-        <li>Edit maps directly within your browser</li>
-      </ul>
-      <p><img src="images/ambulances.png" alt="Ambulances Application" class="img-responsive" /></p>
+      <h2>to specific applications</h2>
       <p>
-        Businesses or not-for-profit organizations, we can analyse your needs and find together the best solutions for your needs and working conditions.
-        Since, we work with agile methods, we are able to quickly test your ideas and improve the application with your feedback while remaining time and cost effective.
-        Do not hesitate to contact us!
+        We also develop small and targeted mapping applications for needs either occasional or specific to your field.
+        Thanks to these small applications, we will be able to:
       </p>
+      <ul>
+        <li>Visualize your data with a responsive interface (compatible with PC, smart-phones, and tablets).</li>
+        <li>Edit maps directly within your browser.</li>
+        <li>Enter geolocalized data.</li>
+        <li>Search the data.</li>
+        <li>Use the application offline.</li>
+      </ul>
+
+      <p>
+        <a href="./plus-application.html.en">
+          <img src="images/ambulances.png" alt="Mobile Application" class="img-responsive" />
+        </a>
+      </p>
+
+      <p><a class="btn btn-default" href="./plus-application.html.en" role="button">More &raquo;</a></p>
     </div>
   </div>
 </section>
@@ -106,7 +116,7 @@ Mobile and geolocation support are already here!">
 
 <!-- FOOTER -->
 <footer>
-  <a href="/#atop" class="top-btn" title="Top"> <i class="fa fa-angle-up"></i></a>
+  <a href="index.html.en#atop" class="top-btn" title="Top"> <i class="fa fa-angle-up"></i></a>
         <div itemscope itemtype="http://schema.org/Organization" class="container">
             <div class="col-sm-12 col-md-3">
                 <img itemprop="logo" src="images/logo.png" style="width: 32px; height:32px; float:left; margin-right: 12px;" />

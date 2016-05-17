@@ -44,61 +44,60 @@
 <!--[if lt IE 9]><script type="text/javascript" src="/js/html5shiv-3.7.2.min.js"></script><![endif]-->
 </head>
 <body>
-<nav id="atop" class="navbar navbar-default fixednav" role="navigation">
-<!-- <header class="header"><div class="top-bar">&nbsp;</div></header> -->
-<div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Menu</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="./index.html.en" title="">Open Source GIS Services
-
-      </a>
+<section  id="atop">
+    <div class="top-bar" style="height:8px;line-height:8px;">&nbsp;</div>
+    <div class="jumbotron">
+      <div class="container text-center">
+        <h1>Specific GIS Applications</h1>
+      </div>
     </div>
-</div>
-</nav>
+</section>
 
 <!-- CONTENU -->
 <section class="container">
 
       <!-- Example row of columns -->
       <div class="row">
-        <h2>Custom applications</h2>
-        <p>Don't need a full geoportal? We can develop small and targeted mapping applications for your needs.</p>
-        <p>Thanks to these small applications, we will be able to:</p>
-        <ul>
-          <li>Navigate with an easy to use interface</li>
-          <li>See data on a map</li>
-          <li>Edit maps directly within your browser</li>
-        </ul>
-        <p>Since we use powerful and famous Open Source librares like OpenLayers3 and AngularJS, we can provide you with quality and fast development.</p>
+        <h3>Don't need a full geoportal?</h3>
+
         <p>
-          <a class="btn btn-default" href="#" onclick="WriteMe('contact', 'en'); return false;" role="button">Contact us &raquo;</a>
+          We can develop small GIS application targeted to fit your needs.
+          Whether you are a company or a non-for-profit organization, let us know what your requirements are.
+          We will determine together the best way to meet them.
         </p>
-        <h3>Examples</h3>
-        <h4>Home delivery</h4>
-        <p>For instance, we developed an application to help home delivery from Moutier (Switzerland) to find access ways into buildings. With this application, you can:</p>
+
+
+        <h3>Example: Home Delivery</h3>
+        <p>For instance, we analysed the use case and developed an application to help home delivery persons from Moutier (Switzerland) to find entrance doors.
+          With this application, they can:
+        </p>
         <ul>
           <li>Display buildings and roads of the district</li>
           <li>Search for an address with auto-completion</li>
-          <li>Center on the searched building</li>
+          <li>Center automatically on the searched building</li>
           <li>Highlight the searched building and its access way</li>
         </ul>
         <p><img src="images/ambulances.png" alt="Home delivery" class="img-responsive" /></p>
-        <p>
-          <!--<a class="btn btn-default" href="#" role="button">Démonstration &raquo;</a>-->
-        </p>
       </div>
 
-      <hr>
+
+      <h3>Approach</h3>
+      <p>
+        We work with agile methods and powerful open source tools like OpenLayers 3 and AngularJS.
+        This allows us to prototype quickly an application based on your specifications and by successive iterations to deliver the solution you want.
+        You will get speed and quality.
+      </p>
+
+      <h4 class="text-center">
+        <a class="btn btn-default" href="#" onclick="WriteMe('contact'); return false;" role="button">Let's talk about it!</a>
+      </h4>
+
+      <p>&nbsp;</p>
 </section>
 
 <!-- FOOTER -->
 <footer>
-  <a href="/#atop" class="top-btn" title="Top"> <i class="fa fa-angle-up"></i></a>
+  <a href="plus-application.html.en#atop" class="top-btn" title="Top"> <i class="fa fa-angle-up"></i></a>
         <div itemscope itemtype="http://schema.org/Organization" class="container">
             <div class="col-sm-12 col-md-3">
                 <img itemprop="logo" src="images/logo.png" style="width: 32px; height:32px; float:left; margin-right: 12px;" />

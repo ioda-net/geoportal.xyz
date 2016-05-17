@@ -33,6 +33,7 @@ We use Mapserver, python, sphinx-search in our backend, and AngularJS, openlayer
 <link href="css/font-awesome.min.css" media="screen" rel="stylesheet" type="text/css">
 <link href="css/fonts.css" media="screen" rel="stylesheet" type="text/css">
 <link href="css/flexslider.css" media="screen" rel="stylesheet" type="text/css">
+<link href="css/carousel.css" media="screen" rel="stylesheet" type="text/css">
 <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css">
 
 <link href="apple-touch-icon-144x144-precomposed.png" rel="/apple-touch-icon-precomposed" sizes="144x144" />
@@ -45,61 +46,178 @@ We use Mapserver, python, sphinx-search in our backend, and AngularJS, openlayer
 <!--[if lt IE 9]><script type="text/javascript" src="/js/html5shiv-3.7.2.min.js"></script><![endif]-->
 </head>
 <body>
-<nav id="atop" class="navbar navbar-default fixednav" role="navigation">
-<!-- <header class="header"><div class="top-bar">&nbsp;</div></header> -->
-<div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Menu</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="./index.html.en" title="">Open Source GIS Services
-
-      </a>
-    </div>
-</div>
-</nav>
-
 <!-- CONTENU -->
-<section class="container">
+<section  id="atop">
+    <div class="top-bar" style="height:8px;line-height:8px;">&nbsp;</div>
+    <div class="jumbotron">
+      <div class="container text-center">
+      <h1>Full geoportals</h1>
+      </div>
+    </div>
+</section>
 
+<section class="container">
       <div class="row">
-          <h2>Full geoportal</h2>
-          <p>Our geoportal product is based on <a href="https://map.geo.admin.ch">mf-geoadmin3</a>, an Open Source geoportal created by the Swiss Federal Office of Topography. This product, both full featured and easy to use, is considered to be one of the best in the market.</p>
-          <p>We propose to adapt it to your needs by adding or modifying features. We can also host your data and your map server.</p>
-          <p>With this solution, you will have an easy to use interface to:</p>
-          <ul>
-            <li>Visualize your GIS data</li>
-            <li>Organize your layers</li>
-            <li>Import data from an external server (WMS, WMTS, WFS)</li>
-            <li>Draw</li>
-            <li>Query layers for features</li>
-            <li>Share your maps and drawings</li>
-            <li>Print your maps</li>
-            <li>Edit maps directly in your web browser</li>
-          </ul>
-          <p><img src="images/geoportail.png" alt="Geoportal" class="img-responsive" /></p>
           <p>
-            <!--<a class="btn btn-default" href="#" role="button">Démonstration &raquo;</a>-->
-            <a class="btn btn-default" href="#" onclick="WriteMe('contact', 'en'); return false;" role="button">Contact us &raquo;</a>
-            <!--<a class="btn btn-default" href="#" role="button">Comment ça marche ? &raquo;</a>-->
+            Our geoportal product is based on <a href="https://map.geo.admin.ch">mf-geoadmin3</a>, an Open Source geoportal created by Swisstopo, the Swiss Federal Office of Topography.
+            This modern product is based on the current web technologies <strong>(HTML5, JavaScript, CSS3)</strong>.
+            It works with <strong>all the major web browsers</strong> (Firefox, Chrome, Safari and Internet Explorer >= 10).
+            Our interface is responsive and compatible with <strong>desktop computers, smart-phones and tablets</strong>.
           </p>
-          <h3>They trusted us</h3>
+
+          <p></p>
+
+
+          <h2>Features</h2>
+
+          <p>With our geoportal, you will be able to:</p>
+
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+              <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+              <li data-target="#myCarousel" data-slide-to="3" class=""></li>
+              <li data-target="#myCarousel" data-slide-to="4" class=""></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+              <div role="presentation" class="item active">
+                <img class="first-slide" src="images/geoportail.png" alt="First slide">
+                <div class="container">
+                  <div class="carousel-caption">
+                    <p>visualize your maps</p>
+                  </div>
+                </div>
+              </div>
+              <div role="presentation" class="item">
+                <img class="second-slide" src="images/topics.png" alt="Second slide">
+                <div class="container">
+                  <div class="carousel-caption">
+                    <p>organize you layers by topics with a catalog</p>
+                  </div>
+                </div>
+              </div>
+              <div role="presentation" class="item">
+                <img class="third-slide" src="images/importwms.png" alt="Third slide">
+                <div class="container">
+                  <div class="carousel-caption">
+                    <p>import data from an external service (WMS, WMTS, WFS)</p>
+                  </div>
+                </div>
+              </div>
+              <div role="presentation" class="item">
+                <img class="third-slide" src="images/dessin.png" alt="Third slide">
+                <div class="container">
+                  <div class="carousel-caption">
+                    <p>draw on the map and save your drawings</p>
+                  </div>
+                </div>
+              </div>
+              <div role="presentation" class="item">
+                <img class="third-slide" src="images/attributs.png" alt="Third slide">
+                <div class="container">
+                  <div class="carousel-caption">
+                    <p>make features requests on displayed layers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+          <p class="text-center">
+            <a class="btn btn-default" href="https://map.geoportal.xyz" role="button" target="_blank">Demonstration &raquo;</a>
+            <a class="btn btn-default" href="#" onclick="WriteMe('contact'); return false;" role="button">Contact us &raquo;</a>
+          </p>
+
+
+          <h4>And also</h4>
+
+          <ul>
+            <li>Protect the geoportal or only some layers with credentials.</li>
+            <li>Print your maps.</li>
+            <li>Organize your layers with drag &amp; drop.</li>
+            <li>Share your maps and drawings with a permalinks and on social networks.</li>
+            <li>Cache layers to improve performance.</li>
+            <li>Add your custom features!</li>
+          </ul>
+
+
+          <h2>Infrastructure</h2>
+
+          <p>
+            A new geoportal integrates seamlessly in an existing WMS/WMTS/WFS infrastructure:
+            from the GetCapabilities and a configuration file, we can create your geoportal with your data.
+            You stay in control of your data while publishing them with recognized standards.
+            Your users enjoy a modern and efficient visualization interface.
+          </p>
+
+          <p>
+            We are also able to create a customized infrastructure which will fit perfectly in your organization
+            (data publication, multi-portals, …).
+          </p>
+
+
+          <h2>Our Offers</h2>
+
+          <ul>
+            <li>Hosting:
+              <ul>
+                <li>Shared: starting at 80 Sfr HT / month</li>
+                <li>Dedicated server</li>
+                <li>In your infrastructure (dedicated or virtual)</li>
+              </ul>
+            </li>
+            <li>Development: adding or modifications of features, customizations. Examples:
+              <ul>
+                <li>Change the layout of features. Estimated time: 50 hours.</li>
+                <li>Add WMTS import. Estimated time: 20 hours.</li>
+                <li>Improve drawing tools. Estimated time: 60 hours.</li>
+              </ul>
+            </li>
+            <li>Possibility to deactivate some features.</li>
+            <li>Data processing via our partners.</li>
+            <li>Support and formation.</li>
+          </ul>
+
+          <p>
+            You want an estimation for your needs?
+          </p>
+
+          <p>
+            <a class="btn btn-default" href="#" onclick="WriteMe('contact'); return false;" role="button">Contact us &raquo;</a>
+          </p>
+
+          <br>
+
+
+          <h2>Previous Realizations</h2>
+
           <p>We have already adapted mf-geoadmin3:</p>
           <ul>
-            <li><a href="https://www.geojb.ch">The GIS portal of Bernese Jura (Switzerland)</a></li>
-            <li>Geoportals for more that 20 towns in Bernese Jura (Switzerland) (private portals)</li>
+            <li><a href="https://www.geojb.ch">The cartographic portal of Bernese Jura (Switzerland)</a></li>
+            <li>Portals for many municipalities for <a href="https://www.sigeom.ch">sigeom sa</a></li>
+            <li>Portals for many municipalities in Bernese Seeland for <a href="http://www.la-ing.ch">Lüscher &amp; Aeschlimann AG</a></li>
+            <li>Portal for an association of municipalities for <a href="http://www.aw-ing.ch">Aeschlimann &amp; Waelti Sàrl</a></li>
           </ul>
+          <p>Thanks for their trust, collaboration and support.</p>
       </div>
 
-      <hr>
+
+      <br>
 </section>
 
 <!-- FOOTER -->
 <footer>
-  <a href="/#atop" class="top-btn" title="Top"> <i class="fa fa-angle-up"></i></a>
+  <a href="plus-geoportail.html.en#atop" class="top-btn" title="Top"> <i class="fa fa-angle-up"></i></a>
         <div itemscope itemtype="http://schema.org/Organization" class="container">
             <div class="col-sm-12 col-md-3">
                 <img itemprop="logo" src="images/logo.png" style="width: 32px; height:32px; float:left; margin-right: 12px;" />
