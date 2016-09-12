@@ -23,7 +23,7 @@
 <meta name="description" content="Réalisation de géoportails ou d'application cartographiques basés sur des outils open source.
 Nos solutions s'adaptent à tout type de besoins et de budget.
 Interface mobile, géolocalisation ou encore dessin sont déjà disponibles.">
-<meta name="keywords" content="géoportail, géo-portail, suisse, jura, mf-geadmin, sit, sig, geodata, application, carte, géomatique, mobile, geoportal">
+<meta name="keywords" content="géoportail, géo-portail, suisse, jura, mf-geoadmin, sit, sig, geodata, application, carte, géomatique, mobile, geoportal">
 
 <base href="./" />
 
@@ -34,6 +34,7 @@ Interface mobile, géolocalisation ou encore dessin sont déjà disponibles.">
 <link href="css/font-awesome.min.css" media="screen" rel="stylesheet" type="text/css">
 <link href="css/fonts.css" media="screen" rel="stylesheet" type="text/css">
 <link href="css/flexslider.css" media="screen" rel="stylesheet" type="text/css">
+<link href="css/carousel.css" media="screen" rel="stylesheet" type="text/css">
 <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css">
 
 <link href="apple-touch-icon-144x144-precomposed.png" rel="/apple-touch-icon-precomposed" sizes="144x144" />
@@ -50,10 +51,9 @@ Interface mobile, géolocalisation ou encore dessin sont déjà disponibles.">
     <div class="top-bar" style="height:8px;line-height:8px;">&nbsp;</div>
     <div class="jumbotron">
       <div class="container text-center">
-        <h1>
-          geoportal.xyz
+        <h1>geoportal.xyz
           <br>
-          Des solutions pour vos géo-données
+          solutions open source pour vos géo-données
         </h1>
         <p>Adaptation - Publication – Visualisation</p>
         <div class="text-center"> <a class="btn btn-default push-right" href="#" onclick="WriteMe('contact'); return false;" role="button">Nous contacter</a></div>
@@ -62,58 +62,236 @@ Interface mobile, géolocalisation ou encore dessin sont déjà disponibles.">
 </section>
 
 <!-- CONTENU -->
-<section class="container">
+<section class="container intro">
+<h2>Géoportail professionnel</h2>
+  <p>
+    Notre solution 100% open source de géoportail est basée sur <a href="https://github.com/geoadmin/mf-geoadmin3">mf-geoadmin3</a>, 
+    un ensemble de composants open source crées par Swisstopo, l'office fédéral suisse de topographie, utilisés par le portail <a href="https://map.geo.admin.ch">map.geo.admin.ch</a>.
+  </p>
+  <p>
+    Cette solution moderne est basée sur les technologies web actuelles <strong>(HTML5, JavaScript, CSS3)</strong>.
+    Elle est compatible avec <strong>tous les principaux navigateurs web</strong> (Firefox, Chrome, Safari et Internet Exporer >= 10).
+    L'interface fonctionne <strong>sur ordinateurs, smartphones et tablettes</strong>.
+  </p>
+  <p>Les solutions geoportal.xyz permettent de gérer une infrastructure simple (par exemple un unique géoportail), mais aussi une infrastructure complexe,
+    multi-portails et multi-clients.
+  </p>
 
-  <!-- Example row of columns -->
-  <div class="row">
-    <div class="col-md-6">
-      <div class="col-md-12">
-        <h2>Du géoportail professionnel</h2>
-        <p>
-          Notre solution est basée sur le géoportail open source fédéral <a href="https://map.geo.admin.ch">mf-geoadmin3</a> créé par Swisstopo, l'office fédéral suisse de topographie.
-          Cette solution complète et ergonomique, est considérée comme une des meilleures du marché.
-          Ioda-Net vous propose de l'adapter à vos besoins pour vous fournir un géoportail personnalisé.
-        </p>
-        <p>
-          <a href="./plus-geoportail.html.fr">
-            <img src="images/geoportail.png" alt="Géoportail" class="img-responsive" />
-          </a>
-        </p>
+</section>
 
-        <a class="btn btn-default" href="./plus-geoportail.html.fr" role="button">En savoir plus &raquo;</a>
-        <a class="btn btn-default" href="https://map.geoportal.xyz" role="button" target="_blank">Démonstration &raquo;</a>
+<section class="functions">
+  <div class="container">
+    <h2>Fonctionnalités</h2>
+
+    <p>Notre géoportail vous permettra notamment de :</p>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="3" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="4" class=""></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div role="presentation" class="item active">
+          <img class="first-slide" src="images/geoportail.png" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <p>visualiser simplement vos cartes</p>
+            </div>
+          </div>
+        </div>
+        <div role="presentation" class="item">
+          <img class="second-slide" src="images/topics.png" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <p>organiser simplement vos couches par sujet avec un catalogue</p>
+            </div>
+          </div>
+        </div>
+        <div role="presentation" class="item">
+          <img class="third-slide" src="images/importwms.png" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <p>importer des données depuis un serveur externe (WMS, WMTS, WFS)</p>
+            </div>
+          </div>
+        </div>
+        <div role="presentation" class="item">
+          <img class="third-slide" src="images/dessin.png" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <p>dessiner sur la carte et sauvegarder vos dessins</p>
+            </div>
+          </div>
+        </div>
+        <div role="presentation" class="item">
+          <img class="third-slide" src="images/attributs.png" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <p>faire des requêtes sur les attributs des couches visualisées</p>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Précédent</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Suivant</span>
+      </a>
+    </div><!-- A developper (geoloc, etc)-->
 
-    <div class="col-md-6">
-      <div class="col-md-12">
-      <h2>à l'application spécifique</h2>
-      <p>Nous développons aussi des applications cartographiques plus simples, répondant à un besoin métier ou ponctuel, vous permettant par exemple de :</p>
-      <ul>
-        <li>Visualiser vos données cartographiques via une interface simplifiée (compatible PC, tablettes et mobiles).</li>
-        <li>Éditer des cartes.</li>
-        <li>Entrer des informations géolocalisées.</li>
-        <li>Faire des recherches sur les données.</li>
-        <li>Utiliser l'application sans réseau.</li>
-      </ul>
-      <p>
-        <a href="./plus-application.html.fr">
-          <img src="images/ambulances.png" alt="Application mobile" class="img-responsive" />
-        </a>
-      </p>
-      
-      <p><a class="btn btn-default" href="./plus-application.html.fr" role="button">En savoir plus &raquo;</a></p>
-      </div>
-    </div>
+    <h4>Mais aussi</h4>
+
+    <ul>
+      <li>De protéger l'accès au portail ou à certaines couches.</li>
+      <li>D'imprimer vos cartes.</li>
+      <li>De réorganiser les couches en drag &amp; drop.</li>
+      <li>De partager vos cartes via permalien ou réseaux sociaux.</li>
+      <li>De placer des couches en cache pour améliorer la performance de l'application.</li>
+      <li>D'ajouter vos fonctionnalités spécifiques !</li>
+    </ul>
   </div>
 </section>
-<section class="container">
+
+<section class="demo">
+  <div class="container">      
+  <h2>Site de démonstration</h2>
+  <p>Le site de démonstration <a href="https://map.geoportal.xyz" target="_blank">map.geoportal.xyz</a></p>
+  <p><a href="https://map.geoportal.xyz"><img class="img-responsive" src="images/demo.jpg" /></a></p>
   <p>&nbsp;</p>
-  <div class="text-center">
-    <a class="btn btn-default push-right" href="#" onclick="WriteMe('contact'); return false;" role="button">Nous contacter</a>
+  <p>Cette maquette de démonstration, n'a d'autre but utile que de démontrer les fonctionnalités de la solution.</p>
+  <p>Vous pouvez consulter un site public complet tel que le géoportail régional du Jura Bernois à l'adresse : 
+    <a href="https://map.geojb.ch">map.geojb.ch</a>
+  </p>
   </div>
+</section>
+
+<section class="services">
+<div class="container">
+<h2>Services</h2>
+
   <p>&nbsp;</p>
+  <h4>Installation</h4>
+  <p>Sur devis, nous intégrons nos solutions dans votre infrastructure existante.</p>
   <p>&nbsp;</p>
+
+  <h4>Formation, support ponctuel</h4>
+  <p>Nous assurons contractuellement du support ponctuel, et de la formation, merci de nous contacter.</p>
+  <p>&nbsp;</p>
+
+  <h4>Hébergement</h4>
+  <p>Sur devis, nous hébergeons votre géo-portail.</p>
+  <p>&nbsp;</p>
+
+  <h4>Souscription</h4>
+  <p>Pour nos utilisateurs commerciaux, nous proposons une souscription annuelle personnalisée, comprenant une offre de support et d'intégration de nos solutions dans votre infrastructure.</p>
+  <p><i>Nous encourageons vivement les utilisateurs professionnels à participer ainsi financièrement à la continuité et longévité du code open source.</i></p>
+  <p>&nbsp;</p>
+
+  <h4>Intégration de données</h4>
+  <p>Avec à un réseau de partenaires spécialisés dans l'acquisition, le traitement et la mise en forme de géo-données, nous vous proposons sur devis un service complet autour de vos géo-données</p>
+  <p>N'hésitez pas à prendre contact avec nous pour exprimer vos besoins.</p>
+  <p>&nbsp;</p>
+
+  <h4>Développements</h4>
+  <p>L'objectif du projet est de profiter au maximum de la synergie rendue possible grâce à la philosophie open source.</p>
+  <p>Ainsi la priorité est donnée au suivi et à l'intégration des nouveautés apportées par swisstopo.</p>
+  <p>Les développements sont prioritairement co-financés par les utilisateurs bénéficiant d'une souscription, et sont versés au tronc commun d'après la licence libre correspondante.</p>
+  <!-- Ajouter liens vers le mode de fonctionnement RFC <p>Aperçu du mode de fonctionnement</p> -->
+  <p>&nbsp;</p>
+</div>
+</section>
+
+<section class="done">
+  <div class="container">
+    <h2>Réalisations</h2>
+  <p>Les solutions geoportal.xyz sont déjà utilisées par :</p>
+  <p><a href="https://www.geojb.ch"><img class="img-responsive" src="images/geojb.jpg" /></a></p>
+  <ul>
+    <li>Le portail cartographique du Jura bernois (Suisse) <a href="https://www.geojb.ch">www.geojb.ch</a></li>
+    <li>Les portails de plusieurs communes pour <a href="https://www.sigeom.ch">sigeom sa</a></li>
+    <li>Les portails de plusieurs communes dans le Seeland bernois pour <a href="http://www.la-ing.ch">Lüscher &amp; Aeschlimann AG</a></li>
+    <li>Portail de syndicat communal pour le compte de <a href="http://www.aw-ing.ch">Aeschlimann &amp; Waelti Sàrl</a></li>
+  </ul>
+  <p>Merci à eux pour leur confiance, collaboration et soutien.</p>
+</div>
+</section>
+
+
+<!--
+<section class="videos">
+  <div class="container">
+<h2>Vidéos d'introduction à l'utilisation</h2>
+<div class="row">
+        <div class="col-md-4 col-sm-4 col-xs-12">
+          <h4>Interagir avec la carte</h4>
+            <div class="embed-responsive embed-responsive-16by9"><iframe src="//youtu.be/dDi9FWjzHl8" allowfullscreen></iframe></div>
+            <p>durée : 1:50</p>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12">
+        <h4>Gestion du code</h4>
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe src="https://www.youtube-nocookie.com/embed/dDi9FWjzHl8" allowfullscreen></iframe>
+        </div>
+        <p>durée : 4:50</p>
+        </div>
+</div>
+</p>
+
+  </div>
+</section>
+-->
+
+
+<section class="contribute">
+<div class="container">
+<h2>Contribuer</h2>
+<h4>Code source</h4>
+<p>Les différents composants de geoportal.xyz sont publiés sur github.com</p>
+<ul>
+  <li>La partie API <a href="https://github.com/ioda-net/geo-api3/">geo-api3 &raquo;</a></li>
+  <li>La partie interface <a href="https://github.com/ioda-net/geo-front3/">geo-front3 &raquo;</a></li>
+  <li>La partie gestion d'infrastructure <a href="https://github.com/ioda-net/geo-infra/">geo-infra &raquo;</a></li>
+  <li>Infrastructure de démarrage <a href="https://github.com/ioda-net/customer-infra/">customer-infra &raquo;</a></li>
+</ul>
+
+<h4>Documentation</h4>
+<p>L'ensemble de la documentation est disponible sur le site dédié <a href="https://docs.geoportal.xyz/">docs.geoportal.xyz</a></p> 
+<p>&nbsp;</p>
+<p>
+Le guide de démarrage (uniquement en anglais pour le moment) <a class="btn btn-default" href="https://docs.geoportal.xyz/getting-started.html" role="button" target="_blank">Getting started &raquo;</a>
+</p>
+
+</div>
+</section>
+
+<section class="apps">
+  <div class="container">
+    <p>&nbsp;</p>
+    <h2>Développement d'applications spécifiques</h2>
+    <p>Nous développons aussi des applications cartographiques plus simples, répondant à un besoin métier ou ponctuel, vous permettant par exemple de :</p>
+    
+    <ul>
+      <li>Visualiser vos données cartographiques via une interface simplifiée (compatible PC, tablettes et mobiles).</li>
+      <li>Éditer des cartes.</li>
+      <li>Entrer des informations géolocalisées.</li>
+      <li>Faire des recherches sur les données.</li>
+      <li>Utiliser l'application sans réseau.</li>
+    </ul>
+    
+    <p>
+      <a href="./plus-application.html.fr">
+        <img src="images/ambulances.png" alt="Application mobile" class="img-responsive" />
+      </a>
+    </p>
+
+    <p><a class="btn btn-default" href="./plus-application.html.fr" role="button">En savoir plus &raquo;</a></p>
+  </div>
 </section>
 
 <footer>
