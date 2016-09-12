@@ -284,11 +284,11 @@ footer{
 	color: #fbfbfb;
 	padding: 1.64em 0 0.54em 0;
 }
-footer a, a:visited{ 
+footer a, footer a:visited{ 
 	text-decoration: none; 
 	color: #fbfbfb;
 }
-footer a:hover, a:active { 
+footer a:hover, footer a:active { 
 	color: #ffffff; 
 	text-decoration: none;
 }
