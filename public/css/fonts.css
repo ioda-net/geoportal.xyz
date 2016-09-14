@@ -8,7 +8,7 @@
 @TODO : modifier et simplifier la liste : page load = 360 !!!!
 A priori on utilise que open sans
 */
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,500,600,600italic,700,700italic,800,800italic);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,500,600,600italic,700,700italic,800,800italic);
 
 .font-effect-neon {
   text-shadow: 0 0 0.1em #fff, 
@@ -24,26 +24,26 @@ A priori on utilise que open sans
 
 
 /*
-@import url(http://fonts.googleapis.com/css?family=Handleetext=TITLE%20TEST);
+@import url(//fonts.googleapis.com/css?family=Handleetext=TITLE%20TEST);
 
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,500);
+@import url(//fonts.googleapis.com/css?family=Roboto:400,400italic,500);
 
 
-@import url(http://fonts.googleapis.com/css?family=Roboto&effect=shadow-multiple|neon&text=Ioda-Net%20Sarl);
+@import url(//fonts.googleapis.com/css?family=Roboto&effect=shadow-multiple|neon&text=Ioda-Net%20Sarl);
 
 other useful fonts
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700,300italic,400italic,700italic);
-@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic);
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+@import url(//fonts.googleapis.com/css?family=Roboto:400,300,700,300italic,400italic,700italic);
+@import url(//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic);
+@import url(//fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
 
 
 
 Hand writing style
-@import url(http://fonts.googleapis.com/css?family=Architects+Daughter);
+@import url(//fonts.googleapis.com/css?family=Architects+Daughter);
 
 Not used too compact.
-@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:100,300,400,700,900,300italic,400italic);
+@import url(//fonts.googleapis.com/css?family=Yanone+Kaffeesatz:100,300,400,700,900,300italic,400italic);
 
 Utilisation des subsets 
 https://developers.google.com/fonts/docs/getting_started#Subsets
