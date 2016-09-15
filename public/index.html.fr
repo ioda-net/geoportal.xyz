@@ -254,17 +254,18 @@ Interface mobile, géolocalisation ou encore dessin sont déjà disponibles.">
 <h4>Code source</h4>
 <p>Les différents composants de geoportal.xyz sont publiés sur github.com</p>
 <ul>
-  <li>La partie API <a href="https://github.com/ioda-net/geo-api3/">geo-api3 &raquo;</a></li>
-  <li>La partie interface <a href="https://github.com/ioda-net/geo-front3/">geo-front3 &raquo;</a></li>
-  <li>La partie gestion d'infrastructure <a href="https://github.com/ioda-net/geo-infra/">geo-infra &raquo;</a></li>
-  <li>Infrastructure de démarrage <a href="https://github.com/ioda-net/customer-infra/">customer-infra &raquo;</a></li>
+  <li>La partie API <a href="https://github.com/ioda-net/geo-api3/">geo-api3</a></li>
+  <li>La partie interface <a href="https://github.com/ioda-net/geo-front3/">geo-front3</a></li>
+  <li>La partie gestion d'infrastructure <a href="https://github.com/ioda-net/geo-infra/">geo-infra</a></li>
+  <li>Infrastructure de démarrage <a href="https://github.com/ioda-net/customer-infra/">customer-infra</a></li>
 </ul>
 
 <h4>Documentation</h4>
 <p>L'ensemble de la documentation est disponible sur le site dédié <a href="https://docs.geoportal.xyz/">docs.geoportal.xyz</a></p> 
 <p>&nbsp;</p>
-<p>
-Le guide de démarrage (uniquement en anglais pour le moment) <a class="btn btn-default" href="https://docs.geoportal.xyz/getting-started.html" role="button" target="_blank">Getting started &raquo;</a>
+<p>Le guide de démarrage (uniquement en anglais pour le moment)</p> 
+<p class="text-center">
+  <a class="btn btn-default" href="https://docs.geoportal.xyz/getting-started.html" role="button" target="_blank">Getting started</a>
 </p>
 
 </div>

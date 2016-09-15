@@ -253,17 +253,18 @@ Mobile interface, geolocation and drawing are already available!">
 <h4>Code source</h4>
 <p>All components are published on github.com</p>
 <ul>
-  <li>API <a href="https://github.com/ioda-net/geo-api3/">geo-api3 &raquo;</a></li>
-  <li>Front end interface <a href="https://github.com/ioda-net/geo-front3/">geo-front3 &raquo;</a></li>
-  <li>Infrastructure management tools<a href="https://github.com/ioda-net/geo-infra/">geo-infra &raquo;</a></li>
-  <li>Infrastructure starter sample <a href="https://github.com/ioda-net/customer-infra/">customer-infra &raquo;</a></li>
+  <li>API <a href="https://github.com/ioda-net/geo-api3/">geo-api3</a></li>
+  <li>Front end interface <a href="https://github.com/ioda-net/geo-front3/">geo-front3</a></li>
+  <li>Infrastructure management tools <a href="https://github.com/ioda-net/geo-infra/">geo-infra</a></li>
+  <li>Infrastructure starter sample <a href="https://github.com/ioda-net/customer-infra/">customer-infra</a></li>
 </ul>
 
 <h4>Documentation</h4>
 <p>All our documentation is published on <a href="https://docs.geoportal.xyz/">docs.geoportal.xyz</a></p> 
 <p>&nbsp;</p>
-<p>
-The quick start guide can be found at <a class="btn btn-default" href="https://docs.geoportal.xyz/getting-started.html" role="button" target="_blank">Getting started &raquo;</a>
+<p>The quick start guide can be found at </p>
+<p class="text-center">
+    <a class="btn btn-default" href="https://docs.geoportal.xyz/getting-started.html" role="button" target="_blank">Getting started &raquo;</a>
 </p>
 
 </div>
