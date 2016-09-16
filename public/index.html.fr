@@ -195,7 +195,7 @@ Interface mobile, géolocalisation ou encore dessin sont déjà disponibles.">
   <p>&nbsp;</p>
 
   <h4>Intégration de données</h4>
-  <p>Avec à un réseau de partenaires spécialisés dans l'acquisition, le traitement et la mise en forme de géo-données, nous vous proposons sur devis un service complet autour de vos géo-données</p>
+  <p>Avec un réseau de partenaires spécialisés dans l'acquisition, le traitement et la mise en forme de géo-données, nous vous proposons sur devis un service complet autour de vos géo-données</p>
   <p>N'hésitez pas à prendre contact avec nous pour exprimer vos besoins.</p>
   <p>&nbsp;</p>
 
