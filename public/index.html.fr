@@ -224,29 +224,35 @@ Interface mobile, géolocalisation ou encore dessin sont déjà disponibles.">
 </section>
 
 
-<!--
-<section class="videos">
-  <div class="container">
-<h2>Vidéos d'introduction à l'utilisation</h2>
-<div class="row">
-        <div class="col-md-4 col-sm-4 col-xs-12">
-          <h4>Interagir avec la carte</h4>
-            <div class="embed-responsive embed-responsive-16by9"><iframe src="//youtu.be/dDi9FWjzHl8" allowfullscreen></iframe></div>
-            <p>durée : 1:50</p>
-        </div>
-        <div class="col-md-4 col-sm-4 col-xs-12">
-        <h4>Gestion du code</h4>
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe src="https://www.youtube-nocookie.com/embed/dDi9FWjzHl8" allowfullscreen></iframe>
-        </div>
-        <p>durée : 4:50</p>
-        </div>
-</div>
-</p>
 
+<section class="videos">
+    <div class="container">
+    <h2>Vidéos d'introduction</h2>
+    <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <h4>Présentation des composants</h4>
+                <div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/u78G2-g2dy0" allowfullscreen></iframe></div>
+                <p>durée : 4:05</p>
+            </div>
+
+            <div class="col-md-4 col-sm-4 col-xs-12">
+            <h4>Explications de la gestion du code</h4>
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe src="https://www.youtube-nocookie.com/embed/6PLcxa0v-xI" allowfullscreen></iframe>
+            </div>
+            <p>durée : 3:45</p>
+            </div>
+
+            <div class="col-md-4 col-sm-4 col-xs-12">
+            <h4>Tutoriel du guide de démarrage</h4>
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe src="https://www.youtube-nocookie.com/embed/muK1Fcplba4" allowfullscreen></iframe>
+            </div>
+            <p>durée : 40:00</p>
+            </div>
+    </div>
   </div>
 </section>
--->
 
 
 <section class="contribute">
@@ -322,6 +328,7 @@ Interface mobile, géolocalisation ou encore dessin sont déjà disponibles.">
       </div>
   </div>
   <div id="copyright">&copy; 1998-2016 Ioda-Net Sàrl Tous droits réservés.</div>
+  <p class="text-center"><a href="index.html.en#atop" title="English content">English content</a></p>
 </footer>
 
 

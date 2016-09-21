@@ -223,29 +223,36 @@ Mobile interface, geolocation and drawing are already available!">
 </section>
 
 
-<!--
 <section class="videos">
-  <div class="container">
-<h2>Vidéos d'introduction à l'utilisation</h2>
-<div class="row">
-        <div class="col-md-4 col-sm-4 col-xs-12">
-          <h4>Interact with the map</h4>
-            <div class="embed-responsive embed-responsive-16by9"><iframe src="//youtu.be/dDi9FWjzHl8" allowfullscreen></iframe></div>
-            <p>durée : 1:50</p>
-        </div>
-        <div class="col-md-4 col-sm-4 col-xs-12">
-        <h4>Code management</h4>
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe src="https://www.youtube-nocookie.com/embed/dDi9FWjzHl8" allowfullscreen></iframe>
-        </div>
-        <p>durée : 4:50</p>
-        </div>
-</div>
-</p>
+    <div class="container">
+    <h2>Videos </h2>
+    <p>Actually the video content is only available in french.</p>
+    <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <h4>Components presentation</h4>
+                <div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/u78G2-g2dy0" allowfullscreen></iframe></div>
+                <p>durée : 4:05</p>
+            </div>
 
+            <div class="col-md-4 col-sm-4 col-xs-12">
+            <h4>Explanations about code management</h4>
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe src="https://www.youtube-nocookie.com/embed/6PLcxa0v-xI" allowfullscreen></iframe>
+            </div>
+            <p>durée : 3:45</p>
+            </div>
+
+            <div class="col-md-4 col-sm-4 col-xs-12">
+            <h4>Full tutorial getting started</h4>
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe src="https://www.youtube-nocookie.com/embed/muK1Fcplba4" allowfullscreen></iframe>
+            </div>
+            <p>durée : 40:00</p>
+            </div>
+    </div>
   </div>
 </section>
--->
+
 
 
 <section class="contribute">
@@ -327,6 +334,8 @@ Mobile interface, geolocation and drawing are already available!">
             </div>
        </div>
   <div id="copyright">&copy; 1998-2016 Ioda-Net Sàrl All rights reserved.</div>
+
+  <p class="text-center"><a href="index.html.fr#atop" title="Page en Français">Page en français</a></p>
 </footer>
 
 
