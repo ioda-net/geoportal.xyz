@@ -270,9 +270,9 @@ Interface mobile, géolocalisation ou encore dessin sont déjà disponibles.">
 <h4>Documentation</h4>
 <p>L'ensemble de la documentation est disponible sur le site dédié <a href="https://docs.geoportal.xyz/">docs.geoportal.xyz</a></p> 
 <p>&nbsp;</p>
-<p>Le guide de démarrage (uniquement en anglais pour le moment)</p> 
+<p>Le guide de démarrage en français</p> 
 <p class="text-center">
-  <a class="btn btn-default" href="https://docs.geoportal.xyz/getting-started.html" role="button" target="_blank">Getting started</a>
+  <a class="btn btn-default" href="https://docs.geoportal.xyz/fr/getting-started.html" role="button" target="_blank">Guide de démarrage</a>
 </p>
 
 </div>
