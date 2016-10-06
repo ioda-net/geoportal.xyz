@@ -225,7 +225,8 @@ h2 > span,
 	background-color: #e6e4e4;
 }
 
-.demo {
+.demo,
+.conclusion {
 	padding: 1.18em 0 2em;
 	background-color: #dce1e9;
 }
@@ -251,7 +252,8 @@ h2 > span,
   	background-color:#dcdcd1;
 }
 
-.contribute {
+.contribute,
+.solution-oss {
 	padding: 1.18em 0 2em;
   	background: #e6e5ea;
 }

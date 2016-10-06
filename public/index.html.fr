@@ -64,27 +64,68 @@ Interface mobile, géolocalisation ou encore dessin sont déjà disponibles.">
 
 <!-- CONTENU -->
 <section class="container intro">
-<h2>Géoportail professionnel</h2>
   <p>
-    Notre solution 100% open source de géoportail est basée sur <a href="https://github.com/geoadmin/mf-geoadmin3">mf-geoadmin3</a>, 
-    un ensemble de composants open source crées par Swisstopo, l'office fédéral suisse de topographie, utilisés par le portail <a href="https://map.geo.admin.ch">map.geo.admin.ch</a>.
+    Nous vous proposons une solution pour vos géo-données, flexible et qui peut s’adapter à un grand nombre de cas d’usages.
   </p>
   <p>
-    Cette solution moderne est basée sur les technologies web actuelles <strong>(HTML5, JavaScript, CSS3)</strong>.
-    Elle est compatible avec <strong>tous les principaux navigateurs web</strong> (Firefox, Chrome, Safari et Internet Exporer >= 10).
-    L'interface fonctionne <strong>sur ordinateurs, smartphones et tablettes</strong>.
+    Pour exemple, vous pouvez nous contacter pour la création d’un géoportail unique.
+    Par contre, si vos besoins sont plus conséquents, nous sommes aussi capables de créer une infrastructure complexe, multi-portails et multi-clients.
   </p>
-  <p>Les solutions geoportal.xyz permettent de gérer une infrastructure simple (par exemple un unique géoportail), mais aussi une infrastructure complexe,
-    multi-portails et multi-clients.
+  <p>
+    Techniquement, cette solution est moderne et basée sur les technologies web actuelles <strong>(HTML5, JavaScript, CSS3)</strong>.
+    Elle est compatible avec <strong>tous les principaux navigateurs web</strong> (Firefox, Chrome, Safari et Internet Exporer &gt;= 10).
+    L'interface fonctionne sur <strong>ordinateurs, smartphones et tablettes</strong>.
   </p>
 
+</section>
+
+<section class="solution-oss">
+  <div class="container">
+    <h2>Notre solution de géoportail est 100% open source</h2>
+
+    <p>
+      Pour information ou rappel :
+    </p>
+    <ul>
+      <li>Le choix de l’open source vous permet de rester autonome et libre de changer de prestataire à tout moment (si vous n’en n’êtes pas satisfaits).</li>
+      <li>Vous profitez des évolutions des programmes, tout en conservant évidemment vos données confidentielles.</li>
+      <li>L’open source offre également une pérennité et une réactivité généralement supérieure aux produits propriétaires,
+        puisque nous sommes en relations actives avec des communautés open source de développeurs et d’experts.</li>
+    </ul>
+
+    <p>
+      Notre solution de géoportail est basée sur mf-geoadmin3, un ensemble de composants open source créés par Swisstopo (office fédéral suisse de topographie).
+      Pour les développeurs open source, on appelle cela un « fork amical ».
+      Cela revient à dire que nous utilisons des programmes open source existant (et « bien » écrits), en cherchant à développer des processus collaboratifs.
+    </p>
+
+    <p>
+      Au niveau collaboration, nous avons donc d’une part, développé et maintenu des échanges constructifs avec Swisstopo,
+      que nous remercions pour leur important travail.
+    </p>
+
+    <p>
+      D’autre part, nous remercions aussi l’entreprise sigeom sa, d’avoir intégré et compris l’importance des investissements et contributions open source.
+    </p>
+  </div>
 </section>
 
 <section class="functions">
   <div class="container">
     <h2>Fonctionnalités</h2>
 
-    <p>Notre géoportail vous permettra notamment de :</p>
+    <p>Votre géoportail vous permettra notamment de :</p>
+
+    <ul>
+      <li>Visualiser simplement vos cartes.</li>
+      <li>Organiser simplement vos couches par sujet avec un catalogue.</li>
+      <li>Dessiner sur la carte et sauvegarder vos dessins.</li>
+      <li>Faire des requêtes sur les attributs des couches visualisées.</li>
+      <li>Importer des données depuis un serveur externe (WMS, WMTS, WFS).</li>
+    </ul>
+
+    <p>&nbsp;</p>
+
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
@@ -201,7 +242,7 @@ Interface mobile, géolocalisation ou encore dessin sont déjà disponibles.">
 
   <h4>Développements</h4>
   <p>L'objectif du projet est de profiter au maximum de la synergie rendue possible grâce à la philosophie open source.</p>
-  <p>Ainsi la priorité est donnée au suivi et à l'intégration des nouveautés apportées par swisstopo.</p>
+  <p>Ainsi la priorité est donnée au suivi et à l'intégration des nouveautés apportées par Swisstopo.</p>
   <p>Les développements sont prioritairement co-financés par les utilisateurs bénéficiant d'une souscription, et sont versés au tronc commun d'après la licence libre correspondante.</p>
   <!-- Ajouter liens vers le mode de fonctionnement RFC <p>Aperçu du mode de fonctionnement</p> -->
   <p>&nbsp;</p>
@@ -221,37 +262,6 @@ Interface mobile, géolocalisation ou encore dessin sont déjà disponibles.">
   </ul>
   <p>Merci à eux pour leur confiance, collaboration et soutien.</p>
 </div>
-</section>
-
-
-
-<section class="videos">
-    <div class="container">
-    <h2>Vidéos d'introduction</h2>
-    <div class="row">
-            <div class="col-md-4 col-sm-4 col-xs-12">
-              <h4>Présentation des composants</h4>
-                <div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/u78G2-g2dy0" allowfullscreen></iframe></div>
-                <p>durée : 4:05</p>
-            </div>
-
-            <div class="col-md-4 col-sm-4 col-xs-12">
-            <h4>Explications de la gestion du code</h4>
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe src="https://www.youtube-nocookie.com/embed/6PLcxa0v-xI" allowfullscreen></iframe>
-            </div>
-            <p>durée : 3:45</p>
-            </div>
-
-            <div class="col-md-4 col-sm-4 col-xs-12">
-            <h4>Tutoriel du guide de démarrage</h4>
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe src="https://www.youtube-nocookie.com/embed/muK1Fcplba4" allowfullscreen></iframe>
-            </div>
-            <p>durée : 40:00</p>
-            </div>
-    </div>
-  </div>
 </section>
 
 
@@ -275,6 +285,31 @@ Interface mobile, géolocalisation ou encore dessin sont déjà disponibles.">
   <a class="btn btn-default" href="https://docs.geoportal.xyz/fr/getting-started.html" role="button" target="_blank">Guide de démarrage</a>
 </p>
 
+<h4>Vidéos d'introduction</h4>
+<div class="row">
+    <div class="col-md-4 col-sm-4 col-xs-12">
+      <h4>Présentation des composants</h4>
+        <div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/u78G2-g2dy0" allowfullscreen></iframe></div>
+        <p>durée : 4:05</p>
+    </div>
+
+    <div class="col-md-4 col-sm-4 col-xs-12">
+    <h4>Explications de la gestion du code</h4>
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe src="https://www.youtube-nocookie.com/embed/6PLcxa0v-xI" allowfullscreen></iframe>
+    </div>
+    <p>durée : 3:45</p>
+    </div>
+
+    <div class="col-md-4 col-sm-4 col-xs-12">
+    <h4>Tutoriel du guide de démarrage</h4>
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe src="https://www.youtube-nocookie.com/embed/muK1Fcplba4" allowfullscreen></iframe>
+    </div>
+    <p>durée : 40:00</p>
+    </div>
+</div>
+
 </div>
 </section>
 
@@ -291,14 +326,47 @@ Interface mobile, géolocalisation ou encore dessin sont déjà disponibles.">
       <li>Faire des recherches sur les données.</li>
       <li>Utiliser l'application sans réseau.</li>
     </ul>
-    
+
+    <div class="row">
+      <div class="col-lg-8 col-sm-12">
+        <a href="./plus-application.html.fr">
+          <img src="images/ambulances.png" alt="Application mobile" class="img-responsive" />
+        </a>
+      </div>
+    </div>
+
+    <p><br><a class="btn btn-default" href="./plus-application.html.fr" role="button">En savoir plus &raquo;</a></p>
+  </div>
+</section>
+
+<section class="conclusion">
+  <div class="container">
+    <h2>Nous contacter pour en parler</h2>
+
     <p>
-      <a href="./plus-application.html.fr">
-        <img src="images/ambulances.png" alt="Application mobile" class="img-responsive" />
-      </a>
+      Que vous soyez une association, une commune, un bureau d’ingénieur, un service industriel ou une communauté urbaine,
+      notre solution peut vraiment s’adapter à différents besoins et utilisations.
     </p>
 
-    <p><a class="btn btn-default" href="./plus-application.html.fr" role="button">En savoir plus &raquo;</a></p>
+    <p>
+      La solution étant open source, vous ne payez pas de licence mais simplement le service permettant d’adapter la solution à vos priorités,
+      et contribuer à son évolution (mises à jour, ajouts de fonctionnalités, etc.).
+    </p>
+
+    <p>
+      Nous pouvons aussi, en tant que prestataire informatique par ailleurs, vous proposer des options différentes pour héberger le(s) géoportail(s).
+    </p>
+
+    <p>
+      Pour avancer dans votre recherche, nous ne pouvons que vous encourager à nous contacter (sans engagement)
+      pour analyser les besoins et les solutions possibles.
+    </p>
+
+    <p>
+      Merci de votre visite !
+    </p>
+
+    <div class="text-center"> <a class="btn btn-default push-right" href="#" onclick="WriteMe('contact'); return false;" role="button">Nous contacter</a></div>
   </div>
 </section>
 

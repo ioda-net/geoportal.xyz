@@ -57,33 +57,74 @@ Mobile interface, geolocation and drawing are already available!">
           open source solutions for your geo-data
         </h1>
         <p>Adaptation — Publication – Visualization</p>
-		    <div class="text-center"> <a class="btn btn-default push-right" href="#" onclick="WriteMe('contact'); return false;" role="button">Contact us</a></div>
+		    <div class="text-center"> <a class="btn btn-default push-right" href="#" onclick="WriteMe('contact', 'en'); return false;" role="button">Contact us</a></div>
       </div>
     </div>
 </section>
 
 <!-- CONTENU -->
 <section class="container intro">
-<h2>Professional geoportal</h2>
   <p>
-    Our 100% open source geoportal solution is based on <a href="https://github.com/geoadmin/mf-geoadmin3">mf-geoadmin3</a>,
-    a bunch of open source components created by Swisstopo, the Swiss Federal Office of Topography, and used on portal <a href="https://map.geo.admin.ch">map.geo.admin.ch</a>.
+    We propose a flexible solution for your geo-data that can be adapted to various use cases.
   </p>
   <p>
-  This modern product is based on the current web technologies <strong>(HTML5, JavaScript, CSS3)</strong>.
-  It works with <strong>all the major web browsers</strong> (Firefox, Chrome, Safari and Internet Explorer >= 10).
-  The interface is also responsive and compatible with <strong>desktop computers, smart-phones and tablets</strong>.
+    For instance, you can contact us for the creation of a single geoportal.
+    However, if you need many portals, we are also able to create a more complex infrastructure to handle all these portals.
   </p>
-  <p><b>geoportal.xyz</b> solutions are able to be used with a unique and simple geoportal, but in 
-  multi-geoportals and multi-customers contexts too.
+  <p>
+  From a technical standpoint, this modern product is based on the current web technologies <strong>(HTML5, JavaScript, CSS3)</strong>.
+  It works on <strong>all the major web browsers</strong> (Firefox, Chrome, Safari and Internet Explorer >= 10).
+  The interface is also responsive and compatible with <strong>desktops, smart-phones and tablets</strong>.
   </p>
+</section>
+
+<section class="solution-oss">
+  <div class="container">
+    <h2>Our solution is 100% open source</h2>
+
+    <p>
+      For your information :
+    </p>
+    <ul>
+      <li>With open source you can be autonomous and you are free to change of service provider at any time.</li>
+      <li>You can benefit from the evolution of the softwares, while keeping your data private.</li>
+      <li>Open source also offers you better durability and a faster reaction time than proprietary softwares
+        since we are involved in open source communities of developers and experts.</li>
+    </ul>
+
+    <p>
+      Our product is based on mf-geoadmin3, a set of open source components created by Swisstopo (Swiss Federal Office of Topography).
+      For open source developers, it is called a friendly fork.
+      This means that we use exiting (and well written) open source softwares while trying to develop collaborative processes.
+    </p>
+
+    <p>
+      From a collaborative standpoint, on the one hand, we developed and are maintaining constructive exchanges with Swisstopo,
+      whose members we thank for their astonishing work.
+    </p>
+
+    <p>
+      On the other hand, we thank sigeom sa, a Swiss geometer company, for their understanding of the importance of open source investments and contributions.
+    </p>
+  </div>
 </section>
 
 <section class="functions">
   <div class="container">
     <h2>Features</h2>
 
-    <p>With our geoportal, you will be able to:</p>
+    <p>With your geoportal, you will be able to:</p>
+
+    <ul>
+      <li>Visualize your maps.</li>
+      <li>Organize you layers by topics with a catalog.</li>
+      <li>Import data from an external service (WMS, WMTS, WFS).</li>
+      <li>Draw on the map and save your drawings.</li>
+      <li>Make features requests on displayed layers.</li>
+    </ul>
+
+    <p>&nbsp;</p>
+
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
@@ -181,7 +222,7 @@ Mobile interface, geolocation and drawing are already available!">
   <p>&nbsp;</p>
 
   <h4>Training, contractual support</h4>
-  <p>We offer trainings and support, assistance by contract. Please contact us for a quote.</p>
+  <p>We offer training and support, assistance by contract. Please contact us for a quote.</p>
   <p>&nbsp;</p>
 
   <h4>Hosting</h4>
@@ -200,9 +241,9 @@ Mobile interface, geolocation and drawing are already available!">
 
   <h4>Development</h4>
   <p>The primary objective of the project is to benefit as much as possible from the open-source synergy. 
-  <p>High priority is given to follow newest features from swisstopo code, and integrate them as fast as possible./p>
-  <p>All developments will be done under the respective repository open-source licence. So every participant will get updates from the global efforts.</p>
-  <p>Come back soon to read the detailled process for enhancement and co-sharing cost model.</p>
+  <p>High priority is given to follow newest features from Swisstopo code, and integrate them as fast as possible./p>
+  <p>All developments will be done under the respective repository open-source license. So every participant will get updates from the global efforts.</p>
+  <p>Come back soon to read the detailed process for enhancement and co-sharing cost model.</p>
   <!-- Ajouter liens vers le mode de fonctionnement RFC <p>Aperçu du mode de fonctionnement</p> -->
   <p>&nbsp;</p>
 </div>
@@ -221,38 +262,6 @@ Mobile interface, geolocation and drawing are already available!">
       <p>Thanks for their trust, collaboration and support.</p>
   </div>
 </section>
-
-
-<section class="videos">
-    <div class="container">
-    <h2>Videos </h2>
-    <p>Actually the video content is only available in french.</p>
-    <div class="row">
-            <div class="col-md-4 col-sm-4 col-xs-12">
-              <h4>Components presentation</h4>
-                <div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/u78G2-g2dy0" allowfullscreen></iframe></div>
-                <p>durée : 4:05</p>
-            </div>
-
-            <div class="col-md-4 col-sm-4 col-xs-12">
-            <h4>Explanations about code management</h4>
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe src="https://www.youtube-nocookie.com/embed/6PLcxa0v-xI" allowfullscreen></iframe>
-            </div>
-            <p>durée : 3:45</p>
-            </div>
-
-            <div class="col-md-4 col-sm-4 col-xs-12">
-            <h4>Full tutorial getting started</h4>
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe src="https://www.youtube-nocookie.com/embed/muK1Fcplba4" allowfullscreen></iframe>
-            </div>
-            <p>durée : 40:00</p>
-            </div>
-    </div>
-  </div>
-</section>
-
 
 
 <section class="contribute">
@@ -275,6 +284,31 @@ Mobile interface, geolocation and drawing are already available!">
     <a class="btn btn-default" href="https://docs.geoportal.xyz/getting-started.html" role="button" target="_blank">Getting started &raquo;</a>
 </p>
 
+<p>Currentyl, the videos are only available in french.</p>
+<div class="row">
+  <div class="col-md-4 col-sm-4 col-xs-12">
+    <h4>Components presentation</h4>
+      <div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/u78G2-g2dy0" allowfullscreen></iframe></div>
+      <p>Length: 4:05</p>
+  </div>
+
+  <div class="col-md-4 col-sm-4 col-xs-12">
+  <h4>Explanations about code management</h4>
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe src="https://www.youtube-nocookie.com/embed/6PLcxa0v-xI" allowfullscreen></iframe>
+  </div>
+  <p>Length: 3:45</p>
+  </div>
+
+  <div class="col-md-4 col-sm-4 col-xs-12">
+  <h4>Full tutorial getting started</h4>
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe src="https://www.youtube-nocookie.com/embed/muK1Fcplba4" allowfullscreen></iframe>
+  </div>
+  <p>Length: 40:00</p>
+  </div>
+</div>
+
 </div>
 </section>
 
@@ -291,18 +325,51 @@ Mobile interface, geolocation and drawing are already available!">
     <ul>
       <li>Visualize your data with a responsive interface (compatible with PC, smart-phones, and tablets).</li>
       <li>Edit maps directly within your browser.</li>
-      <li>Enter geolocalized data.</li>
+      <li>Enter geo-localized data.</li>
       <li>Search the data.</li>
       <li>Use the application offline.</li>
     </ul>
 
+    <div class="row">
+      <div class="col-lg-8 col-sm-12">
+        <a href="./plus-application.html.en">
+          <img src="images/ambulances.png" alt="Application mobile" class="img-responsive" />
+        </a>
+      </div>
+    </div>
+
+    <p><br><a class="btn btn-default" href="./plus-application.html.en" role="button">More &raquo;</a></p>
+  </div>
+</section>
+
+
+<section class="conclusion">
+  <div class="container">
+    <h2>Contact us to speak about it</h2>
+
     <p>
-      <a href="./plus-application.html.en">
-        <img src="images/ambulances.png" alt="Mobile Application" class="img-responsive" />
-      </a>
+      Whether you are a non profit organization, a city, a geometer company, an industrial service or a urban community,
+      our solution can adapt to your needs and usages.
     </p>
 
-    <p><a class="btn btn-default" href="./plus-application.html.en" role="button">More &raquo;</a></p>
+    <p>
+      Since our solution is open source, you are not paying for license fees but for the service needed to adapt the solution to your needs
+      and contribute to its evolution (updates, new features, etc.).
+    </p>
+
+    <p>
+      We are also able as an IT service provider to propose different options to host your portal(s).
+    </p>
+
+    <p>
+      Please contact us so we can help you find the best solution for your needs.
+    </p>
+
+    <p>
+      Thanks for you visit!
+    </p>
+
+    <div class="text-center"> <a class="btn btn-default push-right" href="#" onclick="WriteMe('contact', 'en'); return false;" role="button">Contact us</a></div>
   </div>
 </section>
 
